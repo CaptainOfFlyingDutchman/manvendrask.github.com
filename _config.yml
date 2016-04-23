@@ -23,14 +23,13 @@ image:            /public/img/nap.jpg
 color:            '#A85641'
 
 author:
-  name:           'Florian Klampfer'
+  name:           'Manvendra Singh'
   twitter:        Manvendra_SK
   github:         manvendrask
   photo:          https://avatars0.githubusercontent.com/u/3501410
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:          |
-    Hi, I'm Florian or [`@qwtel`](https://www.twitter.com/qwtel), which isn't an acronym,
-    I just [wanted a short username](http://qwtel.com/how-to-find-a-short-username) and that one happened to be available.
+    Hi, I'm Manvendra or [`@Manvendra_SK`](https://www.twitter.com/Manvendra_SK), which isn't an acronym.
 
-    Read my thoughts on [#software](http://qwtel.com/tag/software) and [#cryptoeconomics](http://qwtel.com/tag/cryptoeconomics).
+    Read my thoughts on [#software and #technology](http://www.tothenew.com/blog/author/manvendra/).

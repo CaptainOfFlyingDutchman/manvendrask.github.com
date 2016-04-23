@@ -15,7 +15,7 @@ title: About
 
 {{ site.author.about }}
 
-[write something about self]
+I'm a presently working for [SapientNitro](http://www.sapientnitro.com/en-us.html) as Tech Lead on [Node.js](https://nodejs.org) technology. Previously I was working with [TO THE NEW Digital](http://tothenew.com) as a Java professional.
 
 ***
 

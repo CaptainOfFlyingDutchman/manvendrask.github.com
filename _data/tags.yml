@@ -25,3 +25,10 @@ jekyll:
   color: '#949667'
   description: >
     Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+
+javascript:
+  name: JavaScript
+  image: /public/img/jekyll.jpg
+  color: '#949667'
+  description: >
+    JavaScript is browser scripting language, but these days it's also used at server side using Node.js.

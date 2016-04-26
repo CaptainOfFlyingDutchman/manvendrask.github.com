@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Angular 2: Up and Running"
+title: "Angular 2: Up and Running and custom Gravatar component"
 tags: [javascript]
 ---
 

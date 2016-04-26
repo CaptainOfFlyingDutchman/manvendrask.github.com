@@ -200,7 +200,7 @@ In Angular 2 we have one-way and two-way bindings. One-way bindings are declared
 
 Whenever we want to set a property of an HTML element on the page we set that property directly, we don’t use any `ng-*` attribute, i.e., `ng-hide`, `ng-src` etc. This concept is known as **Shadow DOM** in Angular 2. It means, to set any property we use square brackets. i.e., to set `src` property of an `img` tag, we would use following code:
 
-~~~html5
+~~~coffee
 <img [src]="myImageUrlPropertyOfComponent">
 ~~~
 
@@ -208,7 +208,7 @@ It means the data is flowing from the component property to the element’s prop
 
 Similarly, to call methods on our component, we would use parentheses. i.e., to listen for the `click` event of an `img` tag, we would use following code:
 
-~~~html5
+~~~coffee
 <img (click)="callMyComponentMethod()">
 ~~~
 
@@ -218,7 +218,85 @@ Thus, to facilitate the two-way binding we have this odd looking `[(ngModel)]` s
 
 Now is the time to see all the things and our hard work in action. Execute the command `npm start`! This command will trigger and listen for any changes on a lite server. This command will automatically launch your default browser, and you should see your app running. You will be able to modify the **H1** tag through the **input** box, as both are bound to the same component property, in this case, `title`.
 
-![image](/public/img/angular2-up-and-running/angular2-first-running.png)
+![Angular2 first running](/public/img/angular2-up-and-running/angular2-first-running.png)
 
 Congratulations, we have our first ever Angular 2 up and running. If you now try to modify the files, i.e., let’s change title property to your liking and save the file. Angular 2 will automatically detect the changes and reload the browser with your changes. Amazing... isn’t it!
 
+### Creating a custom component
+
+Now let’s move ahead with a *custom Gravatar component*. This component would load the Gravatar picture, provided the email. The inspiration of this component is from [Ember.js](http://emberjs.com/) site, it is the first framework which provided component based architecture. I’ve also used a md5 hash calculation code from here [https://github.com/killmenot/webtoolkit.md5](https://github.com/killmenot/webtoolkit.md5).
+
+To create the component add a new file **gravatar-image.component.ts** inside **app** folder, and paste following content:
+
+~~~coffee
+import {Component, Input} from 'angular2/core';
+import {md5} from './md5';
+ 
+@Component({
+    selector: 'gravatar-image',
+    template: `
+        <div id="container">
+            <img [src]="getGravatarImage()">
+            <input [(ngModel)]="email" type="email" placeholder="Enter your Gravatar email">
+        </div>
+    `,
+    styles: []
+})
+export class GravatarImageComponent {
+    @Input() size:number = 200;
+    @Input() email:string = "";
+ 
+    getGravatarImage():string {
+        return 'http://www.gravatar.com/avatar/' + md5(this.email) + '?s=' + this.size;
+    }
+}
+~~~
+
+Here are some new things. We are importing `Input` decorator along with Component decorator from angular2/core module. We are also importing md5 function from md5.ts module. You can look for the source code on the [Github](https://github.com/ManvendraSK/angular2-quickstart). We have one additional `styles` key inside component decorator JSON map. Let’s dissect what is happening here.
+
+1. We are declaring two properties inside `GravatarImageComponent` class; `size` and `email`. These two properties are decorated using `Input` decorator. This `Input` decorator specifies, that this component expects two properties from the user which we can specify as follows, when using the `gravatar-image` tag:
+
+    ```
+    <gravatar-image [size]="220" [email]="'email@domain.com'"></gravatar-image>
+    ```
+
+    Without this `Input` decorator, there is no way to pass the data to this component. This holds true for directives also. Yes, Angular 2 has directives, but those are now just normal classes like our components.
+
+2. We have created a method named `getGravatarImage()` that returns the Gravatar image URL while calculating the md5 of the email, and appending the size parameter. We are using this method inside our component’s template, setting the result to the `src` property of `img` tag.
+
+3. We are also creating a two-way binding to our email property on the input element.
+
+4. We have an additional `styles` key, which we can use to style the component. The style we define for components is component scoped. It means they don’t leak to our application or to other components. You can see the full listing on the [Github](https://github.com/ManvendraSK/angular2-quickstart) for this component.
+
+Now, we have our component in place. If you still have `npm start` running, then you would automatically get a **gravatar-image.component.js** file, which is a proof that Angular 2 is detecting the changes automatically.
+
+To use this custom component, just use the `gravatar-image` tag inside any component (Yes, we now have nested components. We would build an Angular 2 application by nesting multiple components). But including just the tag is not sufficient. You need to tell Angular 2, where to look for the definition of this custom tag. This is where, we have another key inside the `Component` decorator, and it’s called `directives`. Here is the snippet that shows how we can use this directives key.
+
+~~~coffee
+import {GravatarImageComponent} from './gravatar-image.component';
+ 
+@Component({
+    // other code.
+    template: `
+        <!-- other html. -->
+        <gravatar-image [size]="220" [email]="'email@domain.com'"></gravatar-image>
+    `,
+    directives: [GravatarImageComponent]
+})
+export class AppComponent {
+    // class code here.
+}
+~~~
+
+Here is this component in action!
+
+![Gravatar email](/public/img/angular2-up-and-running/gravatar-email.webp)
+![Gravatar default](/public/img/angular2-up-and-running/gravatar-default.png)
+
+As you type an email into the input box, and if there is a valid account associated with that email, the image will load instantly (or depending on your internet connection speed), or we would have just plain Gravatar logo.
+ 
+### Conclusion:
+
+I’ve worked with Ember.js 2 and Angular 1. Angular 2 is looking much familiar, may be due to the use of Ember.js. Angular 2 is built on the notion of components, and that’s a good idea IMHO. API is still in beta, and there is very low documentation for it. I hope the API soon becomes stable and documented. There is also work going on for a tool that would generate Routes and Components, the tool is being called [ngcli](http://ngcli.github.io/). This tool is greatly inspired by [ember-cli](http://ember-cli.com) I’ve used ember-cli, and think ngcli prove same useful.
+
+>Thanks for reading till here. See you next time.

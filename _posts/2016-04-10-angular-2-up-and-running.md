@@ -297,6 +297,6 @@ As you type an email into the input box, and if there is a valid account associa
  
 ### Conclusion:
 
-I’ve worked with Ember.js 2 and Angular 1. Angular 2 is looking much familiar, may be due to the use of Ember.js. Angular 2 is built on the notion of components, and that’s a good idea IMHO. API is still in beta, and there is very low documentation for it. I hope the API soon becomes stable and documented. There is also work going on for a tool that would generate Routes and Components, the tool is being called [ngcli](http://ngcli.github.io/). This tool is greatly inspired by [ember-cli](http://ember-cli.com) I’ve used ember-cli, and think ngcli prove same useful.
+I’ve worked with Ember.js 2 and Angular 1. Angular 2 is looking much familiar, may be due to the use of Ember.js. Angular 2 is built on the notion of components, and that’s a good idea IMHO. API is still in beta, and there is very low documentation for it. I hope the API soon becomes stable and documented. There is also work going on for a tool that would generate Routes and Components, the tool is being called [ngcli](http://ngcli.github.io/). This tool is greatly inspired by [ember-cli](http://ember-cli.com). I’ve used ember-cli, and think ngcli prove same useful.
 
 >Thanks for reading till here. See you next time.

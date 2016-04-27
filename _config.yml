@@ -11,7 +11,7 @@ title:            Manvendra Singh
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:      >
-  A software developer and a philanthropist from heart. Believes in humanity and 
+  A computer programmer and a philanthropist from heart. Believes in humanity and 
   a worker for animal welfare.
 
 # The tags listed as entries in the sidebar
@@ -29,7 +29,7 @@ author:
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:          |
-    Hi, I'm Manvendra or [`@Manvendra_SK`](https://www.twitter.com/Manvendra_SK), which isn't an acronym.
+    Hi, I'm Manvendra or [`@Manvendra_SK`](https://www.twitter.com/Manvendra_SK), which isn't an acronym, and that contains an *underscore* as Twitter needed it for its personal reasons.
 
     Read my thoughts on [#software and #technology](http://www.tothenew.com/blog/author/manvendra/).
 

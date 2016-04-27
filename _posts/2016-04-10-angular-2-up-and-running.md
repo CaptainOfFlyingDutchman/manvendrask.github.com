@@ -254,7 +254,7 @@ export class GravatarImageComponent {
 }
 {% endhighlight %}
 
-Here are some new things. We are importing `Input` decorator along with Component decorator from angular2/core module. We are also importing md5 function from md5.ts module. You can look for the source code on the [Github](https://github.com/ManvendraSK/angular2-quickstart). We have one additional `styles` key inside component decorator JSON map. Let’s dissect what is happening here.
+Here are some new things. We are importing `Input` decorator along with Component decorator from angular2/core module. We are also importing `md5` function from **md5.ts** module. You can look for the source code on the [Github](https://github.com/ManvendraSK/angular2-quickstart). We have one additional `styles` key inside component decorator JSON map. Let’s dissect what is happening here.
 
 1. We are declaring two properties inside `GravatarImageComponent` class; `size` and `email`. These two properties are decorated using `Input` decorator. This `Input` decorator specifies, that this component expects two properties from the user which we can specify as follows, when using the `gravatar-image` tag:
 

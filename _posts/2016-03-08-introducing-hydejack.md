@@ -2,6 +2,7 @@
 layout: post
 title: Introducing Hydejack
 tags: [hyde]
+comments: true
 ---
 
 <style>

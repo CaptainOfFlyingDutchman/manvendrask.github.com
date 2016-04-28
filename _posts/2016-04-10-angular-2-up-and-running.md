@@ -2,6 +2,7 @@
 layout: post
 title: "Angular 2: Up and Running and custom Gravatar component"
 tags: [javascript]
+comments: true
 ---
 
 We have come a long way since the release of Angular [v0.9.x.](https://github.com/angular/angular.js/tree/v0.9.x) We now have [Angular 2](https://angular.io/). Although it’s still in beta version. Angular 2 is radically different from its predecessor, Angular 1. We no more can write an Angular application using just ng-app directive, that kicks off everything, and initialize angular bindings and lot of other stuff.

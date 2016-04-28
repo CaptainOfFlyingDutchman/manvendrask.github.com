@@ -4,15 +4,19 @@
   {% include head.html %}
 
   {% include google_analytics.html %}
-  
+
   <body>
 
     <main class="content container">
       {{ content }}
+
+      {% include disqus_comments.html %}
     </main>
 
     {% include sidebar.html %}
 
     <script src="{{ site.baseurl }}/public/js/hydejack.js" async></script>
   </body>
+
+
 </html>

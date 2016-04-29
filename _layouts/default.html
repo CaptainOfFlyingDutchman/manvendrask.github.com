@@ -10,8 +10,17 @@
     <main class="content container">
       {{ content }}
 
-      {% include twitter_share.html %}
-      {% include google_plus_share.html %}
+      <div id="social_shares"> 
+        <div id="twitter_share">
+          {% include twitter_share.html %}
+        </div>
+        <div id="google_plus_share">
+          {% include google_plus_share.html %}
+        </div>
+        <div id="facebook_share">
+          {% include facebook_share.html %}
+        </div>
+      </div>
       
       {% include disqus_comments.html %}
     </main>

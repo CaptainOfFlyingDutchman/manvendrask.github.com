@@ -12,3 +12,9 @@
 #facebook_share {
   float:left;
 }
+
+@media (max-width: 400px) {  
+  #facebook_share {
+    clear:left;
+  }  
+}

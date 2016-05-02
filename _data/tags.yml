@@ -32,3 +32,11 @@ javascript:
   color: '#949667'
   description: >
     JavaScript is browser scripting language, but these days it's also used at server side using Node.js.
+
+linux:
+  name: Linux
+  image: /public/img/jekyll.jpg
+  color: '#949667'
+  description: >
+    Linux is the open source kernel, which is a base for many open source operating systems, like Fedora and Debian.
+

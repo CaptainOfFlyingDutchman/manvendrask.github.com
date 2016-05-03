@@ -5,7 +5,7 @@ tags: [linux]
 comments: true
 ---
 
-Did you ever feel the need to display the content of some file, may be a **Java** or **HTML**, on the terminal? Yes, you are right. For this purpose, we use **cat** command that comes bundled with any Linux distribution. 
+Did you ever feel the need to display the content of some file, may be a **Java** or **HTML**, on the terminal? Yes, you are right. For this purpose, we use **cat** command that comes bundled with every Linux distribution. 
 
 But you know what, the output is plain *boring*! What if you wanted to display the content of the file in the same way as you have opened it inside any text editor, may be [vim](http://www.vim.org).
 

@@ -14,7 +14,7 @@
 hyde:
   name: Hyde
   image: /public/img/hyde.jpg
-  color: '#949667'
+  color: '#1d6f8e'
   description: >
     Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content.
     It’s based on Poole, the Jekyll butler.
@@ -22,21 +22,21 @@ hyde:
 jekyll:
   name: Jekyll
   image: /public/img/jekyll.jpg
-  color: '#949667'
+  color: '#1d6f8e'
   description: >
     Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
 
 javascript:
   name: JavaScript
   image: /public/img/jekyll.jpg
-  color: '#949667'
+  color: '#1d6f8e'
   description: >
     JavaScript is browser scripting language, but these days it's also used at server side using Node.js.
 
 linux:
   name: Linux
   image: /public/img/jekyll.jpg
-  color: '#949667'
+  color: '#1d6f8e'
   description: >
     Linux is the open source kernel, which is a base for many open source operating systems, like Fedora and Debian.
 

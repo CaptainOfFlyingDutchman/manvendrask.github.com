@@ -84,7 +84,7 @@ Let's use this library to achieve the same result again.
 
 The above code is doing the same thing, binding the `j` key and calling `scrollWindow()` function with `down` parameter, and again binding the `k` key and calling `scrollWindow()` function with `up` parameter. What's special here is how the `scrollWindow()` function is using `setInterval()` method to rapidly calling `window.scrollBy()` method, thus rendering the smooth scrolling, when we press the keys.
 
-If you would like to test this feature on your own then just press `j` or `k` keys right here on this page. And you'll see, the page is moving up and down smoothly. In fact, this whole site is using the above code, but obviously a minfied version of the library.
+If you would like to test this feature on your own then just press `j` or `k` keys right here on this page. And you'll see, the page is moving up and down smoothly. In fact, this whole site is using the above code, but obviously a minified version of the library.
 
 #### Conclusion:
 Some people may argue, that to add custom key bindings is not good for web pages, but IMHO every website should provide certain keybindings. For example, a `/` key to focus on search field much like Facebook, Google, Gmail and YouTube do.

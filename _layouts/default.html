@@ -32,14 +32,14 @@
   
     <script>
         key("j", function() {
-          scrollWindowDown("down")
+          scrollWindow("down")
         });
 
         key("k", function() {
-          scrollWindowDown("up")
+          scrollWindow("up")
         });
 
-        function scrollWindowDown(direction /* up or down */) {
+        function scrollWindow(direction /* up or down */) {
             var up = direction === "up" ? true : false;
 
             var scrolledSoFar = 0;
@@ -52,8 +52,7 @@
                   if( scrolledSoFar <= scrollEnd )  {
                     clearInterval(timerID);
                   }
-                }
-                else {
+                } else {
                   if( scrolledSoFar >= scrollEnd ) {
                     clearInterval(timerID);
                   }

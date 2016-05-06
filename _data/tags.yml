@@ -40,3 +40,10 @@ linux:
   description: >
     Linux is the open source kernel, which is a base for many open source operating systems, like Fedora and Debian.
 
+java:
+  name: Java
+  image: /public/img/jekyll.jpg
+  color: '#1d6f8e'
+  description: >
+    Java is a cross platform language. It can run on any imaginable operating system due to its byte code. This byte code then eventually gets run by the Java Virtual Machine, that sits on top of the physical machine.
+

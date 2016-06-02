@@ -128,7 +128,7 @@ title: Goodbye, TO THE NEW Digital!
       $("#messageContainer").typed({
           strings: [message],
           contentType: 'html',
-          typeSpeed: 1,
+          typeSpeed: 20,
           callback: function() {
               clearInterval(timerID);
           },

@@ -92,7 +92,32 @@ title: Goodbye, TO THE NEW Digital!
       // }
       
       if ($("body").width() === 360) { // BlackBerry Z30
-        message = "message for BlackBerry Z30";
+        message = "^2000Dear Newers," +
+
+        "\n\n^1000After 3.5 years of ^500exciting and \n^500memorable stint with TO THE NEW \nDigital, ^1000today I am saying goodbye to \npursue other career opportunities." + 
+
+        "\n\n^1000I have enjoyed working for this \ncompany and I appreciate having had \nthis wonderful opportunity to work \nwith ^500you all." +
+
+        "\n\n^1000During this time, ^500you all have \nprovided me support, and through your \n^1000encouragement I have been able to \nexcel at the work offered to me." + 
+
+        "\n\n^1000With many of you, I have \nshared a unique ^500camaraderie ^500which I \nhope will continue in the years to \ncome ^500even though I shall not \nbe here with the company." +
+
+        "\n\n^1000I look forward to this new position \nthat brings forth new challenges and \nadds more diverse experience to my \ncareer." + 
+
+        "\n\n^1000I do wish you and the company \nevery success in all future endeavors." + 
+
+        "\n\n^1000Do stay in touch, with any means \nyou would like below:" + 
+
+        "\n\n^500<span style='color:#ec1c24'>Cell</span> : <a href='tel:+919971641265'>+91 9971641265</a>" +
+        "\n^500<span style='color:#0078d7'>Email</span> : <a href='mailto:manvendrask@live.com'>manvendrask@live.com</a>"+
+        "\n^500<span style='color:#55acee'>Twitter</span> : Manvendra_SK"+
+        "\n^500<span style='color:#4867aa'>Facebook</span> : ManvendraSK"+
+        "\n^500<span style='color:#00aff0'>Skype</span> : manvendrask"+
+        "\n^500<span style='color:#005a9c'>Web</span> : <a href='http://www.manvendrask.com'>http://www.manvendrask.com</a>"+
+
+
+        "\n\n\n^1000Your friend," +
+        "\n^1000Manvendra ^500Singh^200.^200.^200. ^1000:^300-^300)^500\n^500\n";
       }
 
       // if ($("body").width() === 320) { // iPhone 5, Nokia 520
@@ -103,7 +128,7 @@ title: Goodbye, TO THE NEW Digital!
       $("#messageContainer").typed({
           strings: [message],
           contentType: 'html',
-          typeSpeed: 10,
+          typeSpeed: 1,
           callback: function() {
               clearInterval(timerID);
           },

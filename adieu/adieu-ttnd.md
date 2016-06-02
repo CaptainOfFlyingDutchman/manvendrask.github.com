@@ -60,50 +60,50 @@ title: Goodbye, TO THE NEW Digital!
   $(function(){
 
       
-      var message= "Dear Newers," +
+      var message= "^2000Dear Newers,^1000" +
 
-      "\n\nAfter 3.5 years of exciting and memorable stint with TO THE NEW Digital, \ntoday I am saying goodbye to pursue other career opportunities." + 
+      "\n\n^1000After 3.5 years of ^1000exciting and ^1000memorable stint with TO THE NEW Digital, \n^1000today I am saying goodbye to pursue other career opportunities.^1000" + 
 
-      "\n\nI have enjoyed working for this company and I appreciate having had this \nwonderful opportunity to work with you all." +
+      "\n\n^1000I have enjoyed working for this company and I appreciate having had this \nwonderful opportunity to work with ^1000you all.^1000" +
 
-      "\n\nDuring this time, you all have provided me support, and through your \nencouragement I have been able to excel at the work offered to me." + 
+      "\n\n^1000During this time, ^1000you all have provided me support, and through your \n^1000encouragement I have been able to excel at the work offered to me.^1000" + 
 
-      "\n\nWith many of you, I have shared a unique camaraderie which I hope \nwill continue in the years to come even though I shall not be here \nwith the company." +
+      "\n\n^1000With many of you, I have shared a unique ^1000camaraderie ^1000which I hope \nwill continue in the years to come ^1000even though I shall not be here \nwith the company.^1000" +
 
-      "\n\nI look forward to this new position that brings forth new challenges and \nadds more diverse experience to my career." + 
+      "\n\n^1000I look forward to this new position that brings forth new challenges and \nadds more diverse experience to my career.^1000" + 
 
-      "\n\nI do wish you and the company every success in all future endeavors." + 
+      "\n\n^1000I do wish you and the company every success in all future endeavors.^1000" + 
 
-      "\n\nDo stay in touch, with any means you would like below:" + 
+      "\n\n^1000Do stay in touch, with any means you would like below:^1000" + 
 
-      "\n\n<span style='color:#ec1c24'>Cell</span> : <a href='tel:+919971641265'>+91 9971641265</a>" +
-      "\n<span style='color:#0078d7'>Email</span> : <a href='mailto:manvendrask@live.com'>manvendrask@live.com</a>"+
-      "\n<span style='color:#55acee'>Twitter</span> : Manvendra_SK"+
-      "\n<span style='color:#4867aa'>Facebook</span> : ManvendraSK"+
-      "\n<span style='color:#00aff0'>Skype</span> : manvendrask"+
-      "\n<span style='color:#005a9c'>Web</span> : <a href='http://www.manvendrask.com'>http://www.manvendrask.com</a>"+
+      "\n\n^500<span style='color:#ec1c24'>Cell</span> : ^500<a href='tel:+919971641265'>+91 9971641265</a>" +
+      "\n^500<span style='color:#0078d7'>Email</span> : ^500<a href='mailto:manvendrask@live.com'>manvendrask@live.com</a>"+
+      "\n^500<span style='color:#55acee'>Twitter</span> : ^500Manvendra_SK"+
+      "\n^500<span style='color:#4867aa'>Facebook</span> : ^500ManvendraSK"+
+      "\n^1000<span style='color:#00aff0'>Skype</span> : manvendrask"+
+      "\n^500<span style='color:#005a9c'>Web</span> : ^500<a href='http://www.manvendrask.com'>http://www.manvendrask.com</a>"+
 
 
-      "\n\n\nYour friend," +
-      "\nManvendra Singh...";
+      "\n\n\n^1000Your friend,^1000" +
+      "\n^1000Manvendra ^1000Singh^200.^200.^200. ^1500:^300-^300)^500\n^500\n";
 
-      if ($("body").width() === 375) { // iPhone 6
-        message = "message for iPhone 6";
-      }
+      // if ($("body").width() === 375) { // iPhone 6
+      //   message = "message for iPhone 6";
+      // }
       
       if ($("body").width() === 360) { // BlackBerry Z30
         message = "message for BlackBerry Z30";
       }
 
-      if ($("body").width() === 320) { // iPhone 5, Nokia 520
-        message = "message for iPhone 5 and Nokia 520";
-      }
+      // if ($("body").width() === 320) { // iPhone 5, Nokia 520
+      //   message = "message for iPhone 5 and Nokia 520";
+      // }
 
 
       $("#messageContainer").typed({
           strings: [message],
           contentType: 'html',
-          typeSpeed: 1,
+          typeSpeed: 30,
           callback: function() {
               clearInterval(timerID);
           },

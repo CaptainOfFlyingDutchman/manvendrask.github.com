@@ -78,10 +78,10 @@ title: Goodbye, TO THE NEW Digital!
 
       "\n\n^500<span style='color:#ec1c24'>Cell</span> : <a href='tel:+919971641265'>+91 9971641265</a>" +
       "\n^500<span style='color:#0078d7'>Email</span> : <a href='mailto:manvendrask@live.com'>manvendrask@live.com</a>"+
-      "\n^500<span style='color:#55acee'>Twitter</span> : Manvendra_SK"+
-      "\n^500<span style='color:#4867aa'>Facebook</span> : ManvendraSK"+
+      "\n^500<span style='color:#55acee'>Twitter</span> : <a target='_blank' href='https://twitter.com/Manvendra_SK'>Manvendra_SK</a>"+
+      "\n^500<span style='color:#4867aa'>Facebook</span> : <a target='_blank' href='https://www.facebook.com/ManvendraSK'>ManvendraSK</a>"+
       "\n^500<span style='color:#00aff0'>Skype</span> : manvendrask"+
-      "\n^500<span style='color:#005a9c'>Web</span> : <a href='http://www.manvendrask.com'>http://www.manvendrask.com</a>"+
+      "\n^500<span style='color:#005a9c'>Web</span> : <a target='_blank' href='http://www.manvendrask.com'>http://www.manvendrask.com</a>"+
 
 
       "\n\n\n^1000Your friend," +
@@ -110,10 +110,10 @@ title: Goodbye, TO THE NEW Digital!
 
         "\n\n^500<span style='color:#ec1c24'>Cell</span> : <a href='tel:+919971641265'>+91 9971641265</a>" +
         "\n^500<span style='color:#0078d7'>Email</span> : <a href='mailto:manvendrask@live.com'>manvendrask@live.com</a>"+
-        "\n^500<span style='color:#55acee'>Twitter</span> : Manvendra_SK"+
-        "\n^500<span style='color:#4867aa'>Facebook</span> : ManvendraSK"+
+        "\n^500<span style='color:#55acee'>Twitter</span> : <a target='_blank' href='https://twitter.com/Manvendra_SK'>Manvendra_SK</a>"+
+        "\n^500<span style='color:#4867aa'>Facebook</span> : <a target='_blank' href='https://www.facebook.com/ManvendraSK'>ManvendraSK</a>"+
         "\n^500<span style='color:#00aff0'>Skype</span> : manvendrask"+
-        "\n^500<span style='color:#005a9c'>Web</span> : <a href='http://www.manvendrask.com'>http://www.manvendrask.com</a>"+
+        "\n^500<span style='color:#005a9c'>Web</span> : <a target='_blank' href='http://www.manvendrask.com'>http://www.manvendrask.com</a>"+
 
 
         "\n\n\n^1000Your friend," +

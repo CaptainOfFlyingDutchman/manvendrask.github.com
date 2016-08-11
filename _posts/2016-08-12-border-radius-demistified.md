@@ -37,7 +37,7 @@ The `border-radius` property takes the value(s) in any CSS units for all of the 
 - If three values are set, then the first one applies to **top-left** corner, the second one applies to **top-right** and **bottom-left** corners, the third one applies to **bottom-right** corner.
 - If four values are set, then they applies to **top-left**, **top-right**, **bottom-right** and **bottom-left** corners.
 
-This property seems to be behaving much like `border-color`, but this is not the case actually. What is happening here is, the every value we set is set to **x** and **y** radius of the final corner's circle. Confused? The following example would help:
+This property seems to be behaving much like `border-color`, but this is not the case actually. What is happening here is, the every value we set is set to **x** (horizontally) and **y** (vertically) radius of the final corner's circle. Confused? The following example would help:
 
 {% highlight css linenos %}
 

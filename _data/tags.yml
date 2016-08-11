@@ -33,6 +33,13 @@ javascript:
   description: >
     JavaScript is browser scripting language, but these days it's also used at server side using Node.js.
 
+css:
+  name: CSS
+  image: /public/img/jekyll.jpg
+  color: '#1d6f8e'
+  description: >
+    CSS is known as the design language of the Web. It's used to design the elements, pages and whole site layouts. CSS can be used to build animations without the need of JavaScript.
+
 linux:
   name: Linux
   image: /public/img/jekyll.jpg

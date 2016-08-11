@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSS border-radius Demisityfied
+title: CSS border-radius Demisitified
 tags: [css]
 comments: true
 ---

@@ -15,7 +15,7 @@ To test this new package manager I created a new project[^2] using `yarn init`[^
 
 > Note: You don't need explicit `--save`[^3] switch to add the dependency to your `package.json` file. It's the default behavior. To save the dependency as dev dependency you can use `--dev`[^3] switch.
 
-The project[^2] I created is based on [React.js](https://facebook.github.io/react/) and [Socket.IO](socket.io). My aim was to create a real-time polling app based on these two technologies. I also wanted a POC[^2] on how we can integrate Socket.IO with React.js. [Webpack](https://webpack.github.io/) is used as a bundler.
+The project[^2] I created is based on [React.js](https://facebook.github.io/react/) and [Socket.IO](http://socket.io/). My aim was to create a real-time polling app based on these two technologies. I also wanted a POC[^2] on how we can integrate Socket.IO with React.js. [Webpack](https://webpack.github.io/) is used as a bundler.
 
 It was a smooth process, due to the reactive nature of React.js and event based system of Socket.IO. You just need to subscribe to certain events of the Socket.IO in your React.js component or emit the events from your React.js component and listen to them on the server.
 

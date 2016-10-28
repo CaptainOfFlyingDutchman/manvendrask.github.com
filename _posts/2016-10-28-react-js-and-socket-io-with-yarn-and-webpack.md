@@ -43,7 +43,7 @@ I might want to add `Socket.IO + React.js = Smooth real time app`.
 
 Why so?
 
-It's because when you listen to the Socket.IO server events inside your components you update the component local state or the central storage if you are using [Redux](http://redux.js.org/). Based on this state change React.js re-renders the component automatically. No extra work on your behalf, just listen to the Socket.IO server events.
+It's because when you listen to the Socket.IO server events inside your components you update the component's local state or the central storage if you are using [Redux](http://redux.js.org/). Based on this state change React.js re-renders the component automatically. No extra work on your behalf, just listen to the Socket.IO server events.
 
 In this project, you will see a real-time pie chart board that gets updated based on the polls of the audiences on the response of the questions asked by the speaker. Follows some screenshots.
 

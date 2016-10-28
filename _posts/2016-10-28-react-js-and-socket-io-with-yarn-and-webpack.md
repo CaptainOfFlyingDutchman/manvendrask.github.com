@@ -21,6 +21,24 @@ It was a smooth process, due to the reactive nature of React.js and event based 
 
 To integrate the Socket.IO in React.js just attach a client socket in the top level component's [`componentWillMount()`](https://github.com/ManvendraSK/react-poll/blob/master/components/App.js#L28) hook. Simple!
 
+{% highlight javascript linenos %}
+import React, { Component } from 'react';
+import io from 'socket.io-client';
+
+export default class App extends Component {
+	componentWillMount() {
+		this.socket = io('http://localhost:3000');
+		// Use socket here
+	}
+
+	render() {
+		return(
+			<h2>App</h2>
+		);
+	}
+}
+{% endhighlight %}
+
 I might want to add `Socket.IO + React.js = Smooth real time app`.
 
 Why so?

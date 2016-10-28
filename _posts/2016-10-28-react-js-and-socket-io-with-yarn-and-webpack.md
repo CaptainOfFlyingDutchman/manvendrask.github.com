@@ -7,7 +7,7 @@ comments: true
 
 A few days back I came to know about the [Yarn](https://yarnpkg.com/) package manager from [Brij Kishor](https://www.linkedin.com/pulse/you-excited-yarn-brij-kishor-sharma) by his post on [LinkedIn Pulse](https://www.linkedin.com/pulse/you-excited-yarn-brij-kishor-sharma). After reading his post and investigating some of its documentation[^1] I got excited about it.
 
-> In simple terms you can say it's a better package manager that also works offline.
+> In simple terms, you can say it's a better package manager that also works offline.
 
 It manages to do so by storing the dependencies along with their version on the local machine that it calls *local cache*. It resolves any dependency of your new project to this local cache, and if it couldn't find them then it triggers a network call and install the new dependency and caches it.
 

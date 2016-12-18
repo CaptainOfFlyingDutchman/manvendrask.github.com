@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Contact Card with Blurred Background using Canvas.
+title: Contact Card with Blurred Background using Canvas
 tags: [javascript]
 comments: true
 ---

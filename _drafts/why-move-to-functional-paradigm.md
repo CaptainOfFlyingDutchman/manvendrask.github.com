@@ -79,7 +79,24 @@ Here you can see we are defining an *Object* that can contain the state and the 
 
 Though we were able to remove some of caveat of our program, but in essense we are still creating those useless variables while capitalizing the words! Moreover, our program is now little more verbose! Remember Java? Let's try to write that feature again in functional approach.
 
+{% highlight javascript linenos %}
+(function() {
+    'use strict';
 
+    function capitalizeWord(word) {
+        return [word.substring(0, 1).toUpperCase(), word.substring(1)].join('');
+    }
+
+    function capitalize(wordsCapitalizer, text) {
+        return text.split(' ').map(wordsCapitalizer).join(' ');
+    }
+
+    window.addEventListener('DOMContentLoaded', function () {
+        const text = prompt('Enter some string to capitalize.', 'loram ipsum dolar');
+        alert(capitalize(capitalizeWord, text));
+    });
+})();
+{% endhighlight %}
 >Thanks for reading till here. See you next time.
 
 &nbsp;

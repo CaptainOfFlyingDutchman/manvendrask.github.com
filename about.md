@@ -15,7 +15,7 @@ title: About
 
 {{ site.author.about }}
 
-I'm also an instructor. I speak for Java ([Spring](http://spring.io), [Hibernate](http://hibernate.org), [Grails](http://grails.org), [Groovy](http://www.groovy-lang.org)) and JavaScript ([Node.js](http://nodejs.org), [Angular 1.x](http://angularjs.org), [Angular 2.x](http://angular.io), [Ember.js](http://emberjs.com), [Express.js](http://expressjs.com)) ecosystems. I really like [PostgreSQL](http://www.postgresql.org) and [MongoDB](http://mongodb.org). 
+I'm also an instructor. I speak for [Java](https://www.java.com/) ([Spring](http://spring.io), [Hibernate](http://hibernate.org), [Groovy](http://www.groovy-lang.org), [Scala](https://www.scala-lang.org/)) and JavaScript ([Node.js](http://nodejs.org), [Angular 1.x](http://angularjs.org), [Angular 2.x](http://angular.io), [Ember.js](http://emberjs.com), [Express.js](http://expressjs.com)) ecosystems. I really like [PostgreSQL](http://www.postgresql.org) and [MongoDB](http://mongodb.org). 
 
 It is my hobby to work on [Qt](https://www.qt.io), and [.NET](https://www.microsoft.com/net/default.aspx) during my spare time.
 

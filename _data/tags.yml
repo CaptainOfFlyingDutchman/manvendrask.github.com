@@ -54,3 +54,10 @@ java:
   description: >
     Java is a cross platform language. It can run on any imaginable operating system due to its byte code. This byte code then eventually gets run by the Java Virtual Machine, that sits on top of the physical machine.
 
+editor:
+  name: Editor
+  image: /public/img/jekyll.jpg
+  color: '#1d6f8e'
+  description: >
+    What is an editor? A tool to write the code in. These are of two kinds, Editor and IDE. Editors are light weight, but IDEs are not. What do I use? I use Sublime Text 3, Visual Studio Code, VIM, Eclipse, JetBrains and NetBeans.
+

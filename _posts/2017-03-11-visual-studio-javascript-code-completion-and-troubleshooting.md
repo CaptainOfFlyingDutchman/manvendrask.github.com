@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visual Studio Code &mdash; JavaScript code completion and troubleshooting
+title: Visual Studio Code &mdash; JavaScript Code Completion and Troubleshooting
 tags: [javascript, editor]
 comments: true
 ---

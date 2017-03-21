@@ -42,7 +42,7 @@ If you might have guessed by now, then yes, Visual Studio Code can even list the
 
 Okay, it was some awesome show off of the program. But let's face the truth. How can Visual Studio Code display the IntelliSense for such a typeless language? How is it possible in the first place? The answer lies in [TypeScript](https://www.typescriptlang.org/). Visual Studio Code installs, what are called Type Definition Files **`*d.ts`** and a little TypeScript server called **tsserver**. You can read about them later in the reference section at the end of this blog post. 
 
-BUT, this will not work by default, unless you are on Windows 10. To get the IntelliSense working on other Operating Systems you have to install **typescript** globally using the command `npm i -g typescript`, and configure a property in the Visual Studio Code settings file to point your path to the installed location of **typescript** package's **lib** folder which you can open by following **File -> Preferences -> Settings**. For example, On my Linux machine I have a setting as follows:
+BUT, this will not work by default, unless you are on the Windows 10 or Windows 7. To get the IntelliSense working on other Operating Systems you have to install **typescript** globally using the command `npm i -g typescript`, and configure a property in the Visual Studio Code settings file to point your path to the installed location of **typescript** package's **lib** folder which you can open by following **File -> Preferences -> Settings**. For example, On my Linux machine I have a setting as follows:
 
 {% highlight json linenos %}
 {
@@ -50,18 +50,19 @@ BUT, this will not work by default, unless you are on Windows 10. To get the Int
 }
 {% endhighlight %}
 
-Here is the screenshot of the IntelliSense in action on Ubuntu 16.04 LTS:
+Here is the screenshot of the IntelliSense in action on the Ubuntu 16.04 LTS:
 
 ![Speaker](/public/img/vs-code-js-intellisense/js-completion-node-js-electron-ubuntu.png)
 
-
 You can also install the **typescript** locally in your app, but that's kind of overkill for a package that you are actually not using. 
 
-For some reason, I was not able to get it working on Windows 7. Maybe it was the issue of getting run the TypeScript Server properly or some memory issue, I don't know. If you get it working please let me know in the comments below. 
+##### Important Note: 
+You need at least Node version 6.x to get it working.
 
 &nbsp;
 
 >Thanks for reading till here. See you next time.
+
 
 #### References:
 [https://code.visualstudio.com/docs/editor/intellisense#_intellisense-features](https://code.visualstudio.com/docs/editor/intellisense#_intellisense-features)

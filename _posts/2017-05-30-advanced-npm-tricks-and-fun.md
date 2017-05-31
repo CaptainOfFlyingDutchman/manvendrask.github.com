@@ -5,7 +5,7 @@ tags: [javascript]
 comments: true
 ---
 
-Hello folks, whassup? Busy in managing your node packages? Lets find more about NPM.
+Hello folks, whassup? Busy in managing your node packages? Let's find more about NPM.
 
 **NPM &mdash; The Node Package Manager** is a program to find and install Node packages. It is really not a part of the Node, it just comes bundled with the Node binaries, as it is very popular package manager out there. But truth to be told, it is not only available package manager for the Node. Recently Facebook released its in-house made package manager called **[Yarn](http://www.manvendrask.com/2016/10/28/react-js-and-socket-io-with-yarn-and-webpack/)**. Facebook claims Yarn is faster than the NPM, which to a certain extent is true. 
 

@@ -42,3 +42,6 @@ node_modules
 
 # Jekyll
 .jekyll-metadata
+
+.sass-cache
+*.gem

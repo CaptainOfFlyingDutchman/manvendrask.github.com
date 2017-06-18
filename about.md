@@ -11,10 +11,6 @@ order: 3
   Don't forget to add the `me` class to the photo, like this: `![alt](src){:.me}`.
 {% endcomment %}
 
-{% if site.author.photo %}
-  ![{{ site.author.name }}]({{ site.author.photo }}){:.me}
-{% endif %}
-
 {{ site.author.about }}
 
 I'm also an instructor. I speak for [Java](https://www.java.com/) ([Spring](http://spring.io), [Hibernate](http://hibernate.org), [Groovy](http://www.groovy-lang.org), [Scala](https://www.scala-lang.org/)) and JavaScript ([Node.js](http://nodejs.org), [Angular 1.x](http://angularjs.org), [Angular 2.x](http://angular.io), [Ember.js](http://emberjs.com), [Express.js](http://expressjs.com)) ecosystems. I really like [PostgreSQL](http://www.postgresql.org) and [MongoDB](http://mongodb.org). 

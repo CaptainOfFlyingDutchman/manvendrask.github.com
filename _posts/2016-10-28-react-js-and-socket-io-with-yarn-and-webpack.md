@@ -47,10 +47,10 @@ It's because when you listen to the Socket.IO server events inside your componen
 
 In this project, you will see a real-time pie chart board that gets updated based on the polls of the audiences on the response of the questions asked by the speaker. Follows some screenshots.
 
-![Speaker](/public/img/react-js-and-socket-io/speaker.png)
-![Attendee question](/public/img/react-js-and-socket-io/question.png)
-![Attendee answer](/public/img/react-js-and-socket-io/answered.png)
-![Result Board](/public/img/react-js-and-socket-io/board.png)
+![Speaker](/assets/img/react-js-and-socket-io/speaker.png)
+![Attendee question](/assets/img/react-js-and-socket-io/question.png)
+![Attendee answer](/assets/img/react-js-and-socket-io/answered.png)
+![Result Board](/assets/img/react-js-and-socket-io/board.png)
 
 &nbsp; &nbsp;
 

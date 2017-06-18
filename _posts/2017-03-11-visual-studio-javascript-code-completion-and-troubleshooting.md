@@ -17,27 +17,27 @@ Let's come to the point.
 
 Visual Studio Code has an amazing and impressive JavaScript code editing experience up to its sleeves. For example, see the screenshot below, how it's displaying the **console** in the IntelliSense list. You can open the IntelliSense by pressing **Ctrl+Space** key combination.
 
-![Speaker](/public/img/vs-code-js-intellisense/js-completion-console.png)
+![Speaker](/assets/img/vs-code-js-intellisense/js-completion-console.png)
 
 If we go further and try to type **`.`** (single dot/period), the editor will display all the available members, and as you type it'll filter them and then display a brief description of the selected member:
 
-![Speaker](/public/img/vs-code-js-intellisense/js-completion-console-members.png)
-![Speaker](/public/img/vs-code-js-intellisense/js-completion-console-member-description.png)
+![Speaker](/assets/img/vs-code-js-intellisense/js-completion-console-members.png)
+![Speaker](/assets/img/vs-code-js-intellisense/js-completion-console-member-description.png)
 
 It can even display the members of our variables. For example, we have created **manvendra** variable that holds JavaScript object. If we try to type **manvendra.** it'll display its members:
 
-![Speaker](/public/img/vs-code-js-intellisense/js-completion-variable-members.png)
+![Speaker](/assets/img/vs-code-js-intellisense/js-completion-variable-members.png)
 
 Isn't it awesome? Yes, surely is. Visual Studio can provide IntelliSense for Browser objects, as well as Node.js objects. For example, let's say we have [Electron](https://electron.atom.io/) project setup in our editor and we would like to use the ES6 destructuring feature and want to import **app**, **BrowserWindow** and **Menu** items from the **electron** object. Here is how Visual Studio Code can help us:
 
-![Speaker](/public/img/vs-code-js-intellisense/js-completion-node-js-electron.png)
+![Speaker](/assets/img/vs-code-js-intellisense/js-completion-node-js-electron.png)
 
 As you can see, when we put the cursor between the curly braces and press **Ctrl+space**, IntelliSense will pop up and display all the available members which we can destruct from the **electron** variable. Isn't it cool? Yes, surely is, folks.
 
 If you might have guessed by now, then yes, Visual Studio Code can even list the events which an object can listen too. For example, **app** object has a **ready** event, which we can listen to and create a **BrowserWindow**, thus creating a new application window:
 
-![Speaker](/public/img/vs-code-js-intellisense/js-completion-event.png)
-![Speaker](/public/img/vs-code-js-intellisense/js-completion-browser-window-options.png)
+![Speaker](/assets/img/vs-code-js-intellisense/js-completion-event.png)
+![Speaker](/assets/img/vs-code-js-intellisense/js-completion-browser-window-options.png)
 
 
 Okay, it was some awesome show off of the program. But let's face the truth. How can Visual Studio Code display the IntelliSense for such a typeless language? How is it possible in the first place? The answer lies in [TypeScript](https://www.typescriptlang.org/). Visual Studio Code installs, what are called Type Definition Files **`*d.ts`** and a little TypeScript server called **tsserver**. You can read about them later in the reference section at the end of this blog post. 
@@ -52,7 +52,7 @@ BUT, this will not work by default, unless you are on the Windows 10 or Windows 
 
 Here is the screenshot of the IntelliSense in action on the Ubuntu 16.04 LTS:
 
-![Speaker](/public/img/vs-code-js-intellisense/js-completion-node-js-electron-ubuntu.png)
+![Speaker](/assets/img/vs-code-js-intellisense/js-completion-node-js-electron-ubuntu.png)
 
 You can also install the **typescript** locally in your app, but that's kind of overkill for a package that you are actually not using. 
 

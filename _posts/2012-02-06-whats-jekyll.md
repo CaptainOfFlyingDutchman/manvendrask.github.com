@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What's Jekyll?
-tags: [hyde]
+tags: [jekyll]
 author: mdo
 ---
 

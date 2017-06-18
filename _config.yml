@@ -2,15 +2,15 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               Hydejack
+title:               Manvendra Singh
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages (and not using custom domains!)
-url:                 https://qwtel.com
+url:                 http://www.manvendrask.com
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
-baseurl:             /hydejack
+baseurl:             ''
 
 # A very short description  of your page
 tagline:             A pretentious two-column Jekyll theme.
@@ -18,18 +18,17 @@ tagline:             A pretentious two-column Jekyll theme.
 # A longer description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:         >
-  A pretentious two-column [Jekyll](http://jekyllrb.com/) theme, stolen by
-  [`@qwtel`{:rel="me"}](https://twitter.com/qwtel) from
-  [Hyde](http://hyde.getpoole.com).
-  You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
+  Philanthropist, Brother, Son, Friend, Mentor, Author and a Programmer.
 
 # This should be the same author as first in `_data/authors.yml`
 author:
-  name:              Florian Klampfer
-  email:             f.klampfer@gmail.com
+  name:           Manvendra Singh
+  twitter:        Manvendra_SK
+  github:         ManvendraSK
+  photo:          /assets/img/me.jpg
 
 # Fallback image and color if not overwritten
-image:               /hydejack/assets/img/nap.jpg
+image:               /assets/img/nap.jpg
 color:               '#4f86aa'
 
 # Remove to disable Google Fonts
@@ -38,11 +37,11 @@ font_heading:        "'Roboto Slab', Helvetica, Arial, sans-serif"
 font:                "'Noto Serif', Georgia, serif"
 
 # Remove to disable Google Anaylics
-google_analytics:    UA-84025722-2
+# google_analytics:    UA-84025722-2
 
-# Setting a disqus shortname will enable the comment section on pages
-# that have `comments: true` in the front matter
-disqus_shortname:    qwtel
+# # Setting a disqus shortname will enable the comment section on pages
+# # that have `comments: true` in the front matter
+# disqus_shortname:    qwtel
 
 # This text will appear in the footer of every page. Markdown enabled.
 copyright:           © 2017. All rights reserved.

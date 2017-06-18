@@ -7,7 +7,7 @@ comments: true
 
 Many times on the web pages we come across displaying some type of card, that displays some information with cool looking background. These may be contact cards or displaying the information for some place like on any travel site. One example is below:
 
-<img src="/public/img/contact-card/card.png" alt="Contact card" />
+<img src="/assets/img/contact-card/card.png" alt="Contact card" />
 
 You might have noticed the background of the header of the card. It's the same image background as we have on the card's center, but blurred!
 

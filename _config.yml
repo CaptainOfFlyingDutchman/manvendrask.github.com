@@ -37,11 +37,11 @@ font_heading:        "'Roboto Slab', Helvetica, Arial, sans-serif"
 font:                "'Noto Serif', Georgia, serif"
 
 # Remove to disable Google Anaylics
-# google_analytics:    UA-84025722-2
+google_analytics:    UA-77079289-1
 
 # # Setting a disqus shortname will enable the comment section on pages
 # # that have `comments: true` in the front matter
-# disqus_shortname:    qwtel
+disqus_shortname:    manvendrask
 
 # This text will appear in the footer of every page. Markdown enabled.
 copyright:           © 2017. Creative Commons.

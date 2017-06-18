@@ -2,7 +2,7 @@
 layout: list
 title: Linux
 slug: linux
-menu: false
+menu: true
 order: 2
 description: >
   Linux is the open source kernel, which is a base for many open source operating systems, like Fedora and Debian.

@@ -49,6 +49,8 @@ copyright:           © 2017. Creative Commons.
 # Format of the permalinks
 permalink:           pretty
 
+markdown:            kramdown
+
 # Pagination configuration (used by the `blog` layout)
 paginate:            5
 paginate_path:       '/page-:num/'

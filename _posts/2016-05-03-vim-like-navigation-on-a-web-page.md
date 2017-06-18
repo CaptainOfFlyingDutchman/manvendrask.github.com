@@ -7,14 +7,14 @@ comments: true
 
 Most of us who use [VIM](http://www.vim.org) for their day to day editing tasks, I can bet, really love its key bindings, especially, character navigation keys i.e., `h`, `j`, `k`, `l`. Then, wouldn't it be a cool idea to allow your users to use `j` and `k` keys to scroll `down` and `up` your page? After all, you can see it in action on the Facebook itself.
 
-Let's implement this feature. 
+Let's implement this feature.
 
 To implement this feature you just need to hook up the `keydown` event for the `document` object, as shown below:
 
 {% highlight javascript linenos %}
 
-  window.document.onkeydown = function(event) {  
-    if (event.keyCode == 74) { 
+  window.document.onkeydown = function(event) {
+    if (event.keyCode == 74) {
       window.scrollBy(0, 100);
     } else if (event.keyCode == 75) {
       window.scrollBy(0, -100);
@@ -28,16 +28,16 @@ Here, we are checking if the key pressed is `j` whose code is `74` then we scrol
 {% highlight javascript linenos %}
 
   window.document.addEventListener("keydown", function(event) {
-    if (event.keyCode == 74) { 
+    if (event.keyCode == 74) {
       window.scrollBy(0, 100);
     } else if (event.keyCode == 75) {
       window.scrollBy(0, -100);
-    } 
+    }
   });
 
 {% endhighlight %}
 
-The reason we switched over to `addEventListener()` method is, it allows us to execute multiple `function`s for the same event. But, it is not the case with the first approach, because, if we would again assign a new `function` to the `onkeydown` property, the previous `function` would then be overwritten. 
+The reason we switched over to `addEventListener()` method is, it allows us to execute multiple `function`s for the same event. But, it is not the case with the first approach, because, if we would again assign a new `function` to the `onkeydown` property, the previous `function` would then be overwritten.
 
 Okay, enough theory, get back to work.
 
@@ -47,8 +47,8 @@ Let's use this library to achieve the same result again.
 
 {% highlight html linenos %}
   <!-- Load the libaray -->
-  <script src="/public/js/keymaster.js" ></script>
-  
+  <script src="/assets/js/keymaster.js" ></script>
+
   <script>
     key("j", function() {
       scrollWindow("down")

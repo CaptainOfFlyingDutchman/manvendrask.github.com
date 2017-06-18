@@ -54,27 +54,27 @@ title: Goodbye, TO THE NEW Digital!
   <span id="messageContainer" style="white-space:pre;"></span>
 </div>
 
-<script src="{{ site.baseurl }}/public/js/jquery.min.js"></script>
-<script src="{{ site.baseurl }}/public/js/typed.js" ></script>
+<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/typed.js" ></script>
 <script>
   $(function(){
 
-      
+
       var message= "^2000Dear Newers," +
 
-      "\n\n^1000After 3.5 years of ^500exciting and ^500memorable stint with TO THE NEW Digital, \n^1000today I am saying goodbye to pursue other career opportunities." + 
+      "\n\n^1000After 3.5 years of ^500exciting and ^500memorable stint with TO THE NEW Digital, \n^1000today I am saying goodbye to pursue other career opportunities." +
 
       "\n\n^1000I have enjoyed working for this company and I appreciate having had this \nwonderful opportunity to work with ^500you all." +
 
-      "\n\n^1000During this time, ^500you all have provided me support, and through your \n^1000encouragement I have been able to excel at the work offered to me." + 
+      "\n\n^1000During this time, ^500you all have provided me support, and through your \n^1000encouragement I have been able to excel at the work offered to me." +
 
       "\n\n^1000With many of you, I have shared a unique ^500camaraderie ^500which I hope \nwill continue in the years to come ^500even though I shall not be here \nwith the company." +
 
-      "\n\n^1000I look forward to this new position that brings forth new challenges and \nadds more diverse experience to my career." + 
+      "\n\n^1000I look forward to this new position that brings forth new challenges and \nadds more diverse experience to my career." +
 
-      "\n\n^1000I do wish you and the company every success in all future endeavors." + 
+      "\n\n^1000I do wish you and the company every success in all future endeavors." +
 
-      "\n\n^1000Do stay in touch, with any means you would like below:" + 
+      "\n\n^1000Do stay in touch, with any means you would like below:" +
 
       "\n\n^500<span style='color:#ec1c24'>Cell</span> : <a href='tel:+919971641265'>+91 9971641265</a>" +
       "\n^500<span style='color:#0078d7'>Email</span> : <a href='mailto:manvendrask@live.com'>manvendrask@live.com</a>"+
@@ -90,23 +90,23 @@ title: Goodbye, TO THE NEW Digital!
       // if ($("body").width() === 375) { // iPhone 6
       //   message = "message for iPhone 6";
       // }
-      
+
       if ($("body").width() === 360) { // BlackBerry Z30
         message = "^2000Dear Newers," +
 
-        "\n\n^1000After 3.5 years of ^500exciting and \n^500memorable stint with TO THE NEW \nDigital, ^1000today I am saying goodbye to \npursue other career opportunities." + 
+        "\n\n^1000After 3.5 years of ^500exciting and \n^500memorable stint with TO THE NEW \nDigital, ^1000today I am saying goodbye to \npursue other career opportunities." +
 
         "\n\n^1000I have enjoyed working for this \ncompany and I appreciate having had \nthis wonderful opportunity to work \nwith ^500you all." +
 
-        "\n\n^1000During this time, ^500you all have \nprovided me support, and through your \n^1000encouragement I have been able to \nexcel at the work offered to me." + 
+        "\n\n^1000During this time, ^500you all have \nprovided me support, and through your \n^1000encouragement I have been able to \nexcel at the work offered to me." +
 
         "\n\n^1000With many of you, I have \nshared a unique ^500camaraderie ^500which I \nhope will continue in the years to \ncome ^500even though I shall not \nbe here with the company." +
 
-        "\n\n^1000I look forward to this new position \nthat brings forth new challenges and \nadds more diverse experience to my \ncareer." + 
+        "\n\n^1000I look forward to this new position \nthat brings forth new challenges and \nadds more diverse experience to my \ncareer." +
 
-        "\n\n^1000I do wish you and the company \nevery success in all future endeavors." + 
+        "\n\n^1000I do wish you and the company \nevery success in all future endeavors." +
 
-        "\n\n^1000Do stay in touch, with any means \nyou would like below:" + 
+        "\n\n^1000Do stay in touch, with any means \nyou would like below:" +
 
         "\n\n^500<span style='color:#ec1c24'>Cell</span> : <a href='tel:+919971641265'>+91 9971641265</a>" +
         "\n^500<span style='color:#0078d7'>Email</span> : <a href='mailto:manvendrask@live.com'>manvendrask@live.com</a>"+
@@ -132,7 +132,7 @@ title: Goodbye, TO THE NEW Digital!
           callback: function() {
               clearInterval(timerID);
           },
-          
+
       });
 
       var timerID = setInterval(function() {
@@ -141,5 +141,5 @@ title: Goodbye, TO THE NEW Digital!
       }, 10);
 
 
-  });  
+  });
 </script>

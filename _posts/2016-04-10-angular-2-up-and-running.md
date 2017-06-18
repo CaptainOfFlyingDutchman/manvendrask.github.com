@@ -221,7 +221,7 @@ Thus, to facilitate the two-way binding we have this odd looking `[(ngModel)]` s
 
 Now is the time to see all the things and our hard work in action. Execute the command `npm start`! This command will trigger and listen for any changes on a lite server. This command will automatically launch your default browser, and you should see your app running. You will be able to modify the **H1** tag through the **input** box, as both are bound to the same component property, in this case, `title`.
 
-![Angular2 first running](/public/img/angular2-up-and-running/angular2-first-running.png)
+![Angular2 first running](/assets/img/angular2-up-and-running/angular2-first-running.png)
 
 Congratulations, we have our first ever Angular 2 up and running. If you now try to modify the files, i.e., let’s change title property to your liking and save the file. Angular 2 will automatically detect the changes and reload the browser with your changes. Amazing... isn’t it!
 
@@ -293,8 +293,8 @@ export class AppComponent {
 
 Here is this component in action!
 
-![Gravatar email](/public/img/angular2-up-and-running/gravatar-email.webp)
-![Gravatar default](/public/img/angular2-up-and-running/gravatar-default.png)
+![Gravatar email](/assets/img/angular2-up-and-running/gravatar-email.webp)
+![Gravatar default](/assets/img/angular2-up-and-running/gravatar-default.png)
 
 As you type an email into the input box, and if there is a valid account associated with that email, the image will load instantly (or depending on your internet connection speed), or we would have just plain Gravatar logo.
  

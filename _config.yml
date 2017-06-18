@@ -60,7 +60,7 @@ paginate_path:       '/page-:num/'
 
 # Set to true when building locally with the `--lsi` option
 # See: https://jekyllrb.com/docs/variables/#site-variables, `site.related_posts`
-# use_lsi:             true
+use_lsi:             false
 
 # Set to `true` if you don't want to show an icon after each link that opens to an external site
 # no_mark_external:    true

@@ -37,6 +37,13 @@
 {% capture js_url %}{% link assets/js/hydejack.js %}?v=6.3.0{% endcapture %}
 <script>loadJSDeferred('{{ js_url | relative_url }}');</script>
 
+{% capture keymaster_url %}{% link assets/js/keymaster.min.js %}{% endcapture %}
+<script>loadJSDeferred('{{ keymaster_url | relative_url }}');</script>
+
+{% capture vim_nav_url %}{% link assets/js/vim.nav.js %}{% endcapture %}
+<script>loadJSDeferred('{{ vim_nav_url | relative_url }}');</script>
+
+
 {% comment %}
   {% include my-scripts.html %}
 {% endcomment %}

@@ -11,7 +11,7 @@ And that is called the first impression is the last impression! So the language 
 
 Language in itself is very flexible in the programming style. You can use it to do **structural programming**, **object oriented programming** or pure **functional programming**. Consider the following example which will capitalize the words of a given sentence. This approach is purely structural.
 
-{% highlight javascript linenos %}
+~~~js
 function capitalizeText() {
     const text = prompt('Enter some string to capitalize.', 'lorem ipsum dolar');
     const result = capitalize(text);
@@ -32,7 +32,7 @@ function capitalize(text) {
 }
 
 window.addEventListener('DOMContentLoaded', capitalizeText);
-{% endhighlight %}
+~~~
 
 This is a very cool program, right? Maybe yes, but NO. There are various moving parts in this little program. We have many variable declarations, two functions (one of them is ugly named &mdash; `capitalizeText`). The worst thing can be, it's not modular and we saved ourselves from that by moving our `result` variable inside `capitalizeText` function.
 
@@ -42,7 +42,7 @@ You see it's just an ordinary code you may write in other languages. JavaScript 
 
 Here is the same program in object orientation fashion. But wait, there are no classes in JavaScript, then how can we do object oriented programming? Well, this is called modular programming, and we are really dealing with **Objects** and not their **Blueprints** AKA **Classes**. This technique is achieved by wrapping whole code in [IIFE (Immediately Invoked Function Expression)](https://developer.mozilla.org/en-US/docs/Glossary/IIFE).
 
-{% highlight javascript linenos %}
+~~~js
 (function() {
     'use strict';
 
@@ -71,7 +71,7 @@ Here is the same program in object orientation fashion. But wait, there are no c
         alert(textObj.capitalizeSentence());
     });
 })();
-{% endhighlight %}
+~~~
 
 The real benefit that comes from this technique is, we are not contaminating the global scope with our random function names. What if somebody else defined `capitalizeText` already? Who knows?
 
@@ -79,7 +79,7 @@ Here you can see we are defining an *Object* that can contain the state and the 
 
 Though we were able to remove some of the caveats of our program, but in essence, we are still creating those useless variables while capitalizing the words in the **for** loop! Moreover, our program is now little more verbose! Remember Java? Let's try to write that feature again in the functional approach.
 
-{% highlight javascript linenos %}
+~~~js
 (function() {
     'use strict';
 
@@ -96,13 +96,13 @@ Though we were able to remove some of the caveats of our program, but in essence
         alert(capitalize(capitalizeWord, text));
     });
 })();
-{% endhighlight %}
+~~~
 
-Well, the program has become too short, which is obvious, thanks to the functional approach of programming. But the real benefit here is, we no more are declaring intermediate variables and keeping a particular computation to only respective function. 
+Well, the program has become too short, which is obvious, thanks to the functional approach of programming. But the real benefit here is, we no more are declaring intermediate variables and keeping a particular computation to only respective function.
 
-This behavior where functions are not modifying any global value or creating any side effect (like opening a DB connection, writing to a file), always give us a particular result for the provided input. These functions are called *pure functions*. 
+This behavior where functions are not modifying any global value or creating any side effect (like opening a DB connection, writing to a file), always give us a particular result for the provided input. These functions are called *pure functions*.
 
-In this program, you can see we are utilizing a technique called function composition. This is possible because functions are treated as a first class citizen in the language, it means you can assign them to variables and pass to other functions as arguments just like any ordinary data type. 
+In this program, you can see we are utilizing a technique called function composition. This is possible because functions are treated as a first class citizen in the language, it means you can assign them to variables and pass to other functions as arguments just like any ordinary data type.
 
 One thing you might have overlooked in the code is, we no more have a **for** loop! We are actually utilizing [`Array.map()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/map) function. `map` function calls the specified function `wordsCapitalizer` with the individual elements of the array we get from the `split` function call. We can think this this way that map is internally looping and calling the `wordsCapitalizer` function for each array element.
 
@@ -110,7 +110,7 @@ Let's talk about a little bit of Java now.
 
 You might think that Java is only an object oriented language, but folks, let me introduce you to the functional aspects of the Java 8 language. Java 8 introduced functional constructs, thus facilitating functional programming approach along with object oriented programming approach.
 
-{% highlight java linenos %}
+~~~java
 package com.manvendrask;
 
 import java.util.Arrays;
@@ -135,7 +135,7 @@ public class Main {
         System.out.println(capitalize.apply(capitalizeWord, text));
     }
 }
-{% endhighlight %}
+~~~
 
 In this Java code, you can see how we are assigning the block of code (methods) to variables `capitalizeWord` and `capitalize`. These are called **Lambda Expressions**. They represent the underlying methods of the target [FunctionalInterface](https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html). The important part to notice is we are passing these methods around much like JavaScript's functions. Moreover, that `map` method is available on the separate API layer called Streams in Java 8.
 

@@ -11,8 +11,7 @@ Let's implement this feature.
 
 To implement this feature you just need to hook up the `keydown` event for the `document` object, as shown below:
 
-{% highlight javascript linenos %}
-
+~~~js
   window.document.onkeydown = function(event) {
     if (event.keyCode == 74) {
       window.scrollBy(0, 100);
@@ -21,12 +20,11 @@ To implement this feature you just need to hook up the `keydown` event for the `
     }
   };
 
-{% endhighlight %}
+~~~
 
 Here, we are checking if the key pressed is `j` whose code is `74` then we scroll down by 100 pixels, else if the key pressed is `k` whose code is `75` then we scroll up by 100 pixels. Easy huh? But wait, if you notice, it would move the page up and down abruptly, and not smoothly. Moreover, this is not the correct way to write an event handler. We should use `addEventListener()` method, as shown below:
 
-{% highlight javascript linenos %}
-
+~~~js
   window.document.addEventListener("keydown", function(event) {
     if (event.keyCode == 74) {
       window.scrollBy(0, 100);
@@ -34,8 +32,7 @@ Here, we are checking if the key pressed is `j` whose code is `74` then we scrol
       window.scrollBy(0, -100);
     }
   });
-
-{% endhighlight %}
+~~~
 
 The reason we switched over to `addEventListener()` method is, it allows us to execute multiple `function`s for the same event. But, it is not the case with the first approach, because, if we would again assign a new `function` to the `onkeydown` property, the previous `function` would then be overwritten.
 
@@ -45,7 +42,7 @@ You know what, there is a concept of reusing the already written code, known as,
 
 Let's use this library to achieve the same result again.
 
-{% highlight html linenos %}
+~~~html
   <!-- Load the libaray -->
   <script src="/assets/js/keymaster.js" ></script>
 
@@ -79,8 +76,7 @@ Let's use this library to achieve the same result again.
         }, 10);
     }
   </script>
-
-{% endhighlight %}
+~~~s
 
 The above code is doing the same thing, binding the `j` key and calling `scrollWindow()` function with `down` parameter, and again binding the `k` key and calling `scrollWindow()` function with `up` parameter. What's special here is how the `scrollWindow()` function is using `setInterval()` method to rapidly calling `window.scrollBy()` method, thus rendering the smooth scrolling, when we press the keys.
 

@@ -17,7 +17,7 @@ First, create an empty directory let’s call it **angular2-quickstart**, wherev
 
 #### 1. package.json
 
-{% highlight json linenos %}
+~~~json
 {
   "name": "angular2-quickstart",
   "version": "1.0.0",
@@ -46,20 +46,20 @@ First, create an empty directory let’s call it **angular2-quickstart**, wherev
     "typings":"^0.7.5"
   }
 }
-{% endhighlight %}
+~~~
 
 This file lists all the dependencies and dev dependencies, along with some handy scripts. Among these scripts is a **start** script that runs two other scripts concurrently, **tsc:w** and **lite**. **tsc:w** compiles the TypeScript files as we change them, and **lite** is a lite server that reloads the browser, whenever any asset changes in our application.
 
 #### 2. typings.json
 
-{% highlight json linenos %}
+~~~json
 {
   "ambientDependencies": {
     "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#4de74cb527395c13ba20b438c3a7a419ad931f1c",
     "jasmine": "github:DefinitelyTyped/DefinitelyTyped/jasmine/jasmine.d.ts#d594ef506d1efe2fea15f8f39099d19b39436b71"
   }
 }
-{% endhighlight %}
+~~~
 
 This file lists all the dependencies, which are actually TypeScript Definitions, and are required by TypeScript compiler. This is necessary, as TypeScript needs to know how to work with these JS libraries. Thus, these files listed inside the **ambientDependencies** basically provide the definitions of the symbols, nothing fancy.
 
@@ -67,7 +67,7 @@ If you remember from the **package.json** file, we have listed **typings** as a 
 
 #### 3. tsconfig.json
 
-{% highlight json linenos %}
+~~~json
 {
   "compilerOptions": {
     "target": "es5",
@@ -85,7 +85,7 @@ If you remember from the **package.json** file, we have listed **typings** as a 
     "typings/main.d.ts"
   ]
 }
-{% endhighlight %}
+~~~
 
 This file lists the instructions for the TypeScript compiler itself. I suggest you going through [https://angular.io/docs/ts/latest/guide/typescript-configuration.html#!#tsconfig](https://angular.io/docs/ts/latest/guide/typescript-configuration.html#!#tsconfig) and [http://www.typescriptlang.org/docs/handbook/compiler-options.html](http://www.typescriptlang.org/docs/handbook/compiler-options.html) after finishing here.
 
@@ -93,7 +93,7 @@ We are finished with the listings of the dependencies for our Angular 2 applicat
 
 Now go ahead and create an **index.html** file and an **app** folder. The resulting directory should be looking as follows:
 
-{% highlight console linenos %}
+~~~console
 angular2-quickstart/
 |-- app/
 |-- typings/
@@ -102,28 +102,28 @@ angular2-quickstart/
 |-- package.json
 |-- tsconfig.json
 |-- typings.json
-{% endhighlight %}
+~~~
 
 
 Now go ahead and add following content to your index.html file:
 
-{% highlight html linenos %}
+~~~html
 <!DOCTYPE html>
 <html>
     <head>
         <title>Angular 2 Bootstrap</title>
- 
-        <meta name="viewport" content="width=device-width, initial-scale=1">   
- 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <script src="node_modules/es6-shim/es6-shim.min.js"></script>
         <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
-        <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>   
- 
+        <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
+
         <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
         <script src="node_modules/systemjs/dist/system.src.js"></script>
         <script src="node_modules/rxjs/bundles/Rx.js"></script>
         <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
- 
+
         <script>
             System.config({
                 packages: {
@@ -136,12 +136,12 @@ Now go ahead and add following content to your index.html file:
             System.import('app/main').then(null, console.error.bind(console));
         </script>
     </head>
- 
+
     <body>
         <my-app>Loading...</my-app>
     </body>
 </html>
-{% endhighlight %}
+~~~
 
 Following is the explanation what is going on in this file:
 
@@ -157,9 +157,9 @@ Inside your **app** folder create two files **app.component.ts** and **main.ts**
 
 #### 1. app.component.ts
 
-{% highlight coffee linenos %}
+~~~coffee
 import {Component} from 'angular2/core';
- 
+
 @Component({
     selector: 'my-app',
     template: `
@@ -172,16 +172,16 @@ export class AppComponent {
     title:String = "Angular 2 Bootstrap";
     description:String = "My first Angular 2 app's description";
 }
-{% endhighlight %}
+~~~
 
 #### 2. main.ts
 
-{% highlight coffee linenos %}
+~~~coffee
 import {bootstrap} from 'angular2/platform/browser';
 import {AppComponent} from './app.component';
- 
+
 bootstrap(AppComponent);
-{% endhighlight %}
+~~~
 
 You might think, what just happened? What are those weird code statements, including `@Component` and `import` keywords? This is the **ES6** proposed syntax. **TypeScript** fully adheres to those specifications. Angular 2 is now a component based framework. Angular 2 no more advocates `scopes` and `controllers`. A component is routable, it has its logic in an ES6 class, and a template inside an HTML file. For the sake of this tutorial, I have merged all the things inside the one file.
 
@@ -191,9 +191,9 @@ Inbuilt modules can be imported just by using the module name inside the quotes,
 
 **app.component.ts** file is exporting a TypeScript class named `AppComponent` which is decorated by a `Component` decorator, imported from `angular2/core` module, which contains additional metadata for the component using a *JSON* map. This metadata contains a key called `selector` which tells angular what would be the HTML tag, Angular 2 will be using to instantiate this component, in this case, it’s `my-app`. If you remember, inside our **index.html** file we are using this tag, and the `System.import` statement is actually loading this **main.ts** file, which contains the `bootstrap` function. This `AppComponent` class has two properties `title` and `description`. These are declared in TypeScript way whose syntax is as follows;
 
-{% highlight coffee linenos %}
+~~~coffee
 propertyName: propertyType [= propertyInitializer];
-{% endhighlight %}
+~~~
 
 All the things inside the square brackets are optional.
 
@@ -203,17 +203,17 @@ In Angular 2 we have one-way and two-way bindings. One-way bindings are declared
 
 Whenever we want to set a property of an HTML element on the page we set that property directly, we don’t use any `ng-*` attribute, i.e., `ng-hide`, `ng-src` etc. This concept is known as **Shadow DOM** in Angular 2. It means, to set any property we use square brackets. i.e., to set `src` property of an `img` tag, we would use following code:
 
-{% highlight coffee linenos %}
+~~~coffee
 <img [src]="myImageUrlPropertyOfComponent">
-{% endhighlight %}
+~~~
 
 It means the data is flowing from the component property to the element’s property.
 
 Similarly, to call methods on our component, we would use parentheses. i.e., to listen for the `click` event of an `img` tag, we would use following code:
 
-{% highlight coffee linenos %}
+~~~coffee
 <img (click)="callMyComponentMethod()">
-{% endhighlight %}
+~~~
 
 It means the data is flowing from the element to the component.
 
@@ -231,10 +231,10 @@ Now let’s move ahead with a *custom Gravatar component*. This component would 
 
 To create the component add a new file **gravatar-image.component.ts** inside **app** folder, and paste following content:
 
-{% highlight coffee linenos %}
+~~~coffee
 import {Component, Input} from 'angular2/core';
 import {md5} from './md5';
- 
+
 @Component({
     selector: 'gravatar-image',
     template: `
@@ -248,12 +248,12 @@ import {md5} from './md5';
 export class GravatarImageComponent {
     @Input() size:number = 200;
     @Input() email:string = "";
- 
+
     getGravatarImage():string {
         return 'http://www.gravatar.com/avatar/' + md5(this.email) + '?s=' + this.size;
     }
 }
-{% endhighlight %}
+~~~
 
 Here are some new things. We are importing `Input` decorator along with Component decorator from angular2/core module. We are also importing `md5` function from **md5.ts** module. You can look for the source code on the [Github](https://github.com/ManvendraSK/angular2-quickstart). We have one additional `styles` key inside component decorator JSON map. Let’s dissect what is happening here.
 
@@ -275,9 +275,9 @@ Now, we have our component in place. If you still have `npm start` running, then
 
 To use this custom component, just use the `gravatar-image` tag inside any component (Yes, we now have nested components. We would build an Angular 2 application by nesting multiple components). But including just the tag is not sufficient. You need to tell Angular 2, where to look for the definition of this custom tag. This is where, we have another key inside the `Component` decorator, and it’s called `directives`. Here is the snippet that shows how we can use this directives key.
 
-{% highlight coffee linenos %}
+~~~coffee
 import {GravatarImageComponent} from './gravatar-image.component';
- 
+
 @Component({
     // other code.
     template: `
@@ -289,7 +289,7 @@ import {GravatarImageComponent} from './gravatar-image.component';
 export class AppComponent {
     // class code here.
 }
-{% endhighlight %}
+~~~
 
 Here is this component in action!
 
@@ -297,7 +297,7 @@ Here is this component in action!
 ![Gravatar default](/assets/img/angular2-up-and-running/gravatar-default.png)
 
 As you type an email into the input box, and if there is a valid account associated with that email, the image will load instantly (or depending on your internet connection speed), or we would have just plain Gravatar logo.
- 
+
 ### Conclusion:
 
 I’ve worked with Ember.js 2 and Angular 1. Angular 2 is looking much familiar, may be due to the use of Ember.js. Angular 2 is built on the notion of components, and that’s a good idea IMHO. API is still in beta, and there is very low documentation for it. I hope the API soon becomes stable and documented. There is also work going on for a tool that would generate Routes and Components, the tool is being called [ngcli](http://ngcli.github.io/). This tool is greatly inspired by [ember-cli](http://ember-cli.com). I’ve used ember-cli, and think ngcli prove same useful.

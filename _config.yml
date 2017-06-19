@@ -13,7 +13,7 @@ url:                 http://www.manvendrask.com
 baseurl:             ''
 
 # A very short description  of your page
-tagline:             A pretentious two-column Jekyll theme.
+tagline:             Blog
 
 # A longer description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)

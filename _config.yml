@@ -49,8 +49,6 @@ copyright:           © 2017. Creative Commons.
 # Format of the permalinks
 permalink:           pretty
 
-markdown:            kramdown
-
 # Pagination configuration (used by the `blog` layout)
 paginate:            5
 paginate_path:       '/page-:num/'
@@ -62,7 +60,7 @@ paginate_path:       '/page-:num/'
 
 # Set to true when building locally with the `--lsi` option
 # See: https://jekyllrb.com/docs/variables/#site-variables, `site.related_posts`
-use_lsi:             false
+# use_lsi:             true
 
 # Set to `true` if you don't want to show an icon after each link that opens to an external site
 # no_mark_external:    true

@@ -13,7 +13,7 @@ You might have noticed the background of the header of the card. It's the same i
 
 Let's see how we have achieved this effect. Following is the markup for the card and the CSS.
 
-{% highlight html linenos %}
+~~~html
 <div class="card">
 	<canvas id="header-bg" class="header-bg"></canvas>
 	<div class="avatar">
@@ -26,11 +26,9 @@ Let's see how we have achieved this effect. Following is the markup for the card
 		</p>
 	</div>
 </div>
-{% endhighlight %}
+~~~
 
-<!-- <br /><br /> -->
-
-{% highlight css linenos %}
+~~~css
 * {
 	box-sizing: border-box;
 	font-family: Verdana;
@@ -114,7 +112,7 @@ p {
 	border-color: #398439;
 }
 /* Taken from Bootstrap 3 */
-{% endhighlight %}
+~~~
 
 This is standard HTML and CSS, but with one difference, if you have noticed the `canvas` element `<canvas id="header-bg" class="header-bg" ></canvas>`. This is where the magic is happening. Our goal here is to draw an image (a blurred image, to be precise) on the canvas.
 
@@ -124,7 +122,7 @@ In the following JavaScript code we are obtaining a **2d context** for the drawi
 
 We are using `stackBlurCanvasRGBA` function from the library that takes 5 parameters, `canvas id`, `top x`, `top y`, `width`, `height` and the `radius`. `radius` defines how blurry the image would be, we are using 50.
 
-{% highlight javascript linenos %}
+~~~js
 var canvas = document.getElementById('header-bg');
 var context = canvas.getContext('2d');
 
@@ -141,7 +139,7 @@ var drawBlur = function() {
 	stackBlurCanvasRGBA('header-bg', 0, 0, w, h, 50);
 }
 background.onload = _ => drawBlur();
-{% endhighlight %}
+~~~
 
 So, folks, this is how we accomplish blurred images in HTML5.
 

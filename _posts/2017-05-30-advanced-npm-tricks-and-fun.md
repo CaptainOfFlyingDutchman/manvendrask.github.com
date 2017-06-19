@@ -48,12 +48,12 @@ This particular **ls** command has various options, check out them all with the 
 If you remember from the beginning, we installed Express.js. That command created a
 node_modules directory and installed Express.js into it without documenting anywhere what we installed. This is a bad practice. Whenever we install anything, we should document it. The best way to document something is inside the package.json file. A package.json file should at least contain two keys **name** and **version** as shown below:
 
-{% highlight json linenos %}
+~~~json
 {
    "name": "npmify",
    "version": "1.0.0"
 }
-{% endhighlight %}
+~~~
 
 The name field should all be in lowercase and version should follow the semantic versioning system of the Node which consists of **major.minor.patch**.
 
@@ -65,7 +65,7 @@ To save something inside this package.json use **`--save`** or **`--save-dev`** 
 
 E.g., executing **`npm i -S jquery`** and **`npm i -D qunitjs`** would result in the following package.json.
 
-{% highlight json linenos %}
+~~~json
 {
 	"name": "npmify",
 	"version": "1.0.0",
@@ -76,7 +76,7 @@ E.g., executing **`npm i -S jquery`** and **`npm i -D qunitjs`** would result in
 		"qunitjs": "^2.3.2"
 	}
 }
-{% endhighlight %}
+~~~
 
 
 There is one more option to **`npm i`** command, **`--save-optional`** or **`-O`**, which would install the optional dependencies under the **optionalDependencies** key.

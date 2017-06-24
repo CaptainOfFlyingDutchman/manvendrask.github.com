@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Advanced NPM Tricks and Fun
-tags: [javascript]
+tags: [javascript, nodejs]
 comments: true
 ---
 
 Hello folks, whassup? Busy in managing your node packages? Let's find more about NPM.
 
-**NPM &mdash; The Node Package Manager** is a program to find and install Node packages. It is really not a part of the Node, it just comes bundled with the Node binaries, as it is very popular package manager out there. But truth to be told, it is not only available package manager for the Node. Recently Facebook released its in-house made package manager called **[Yarn](http://www.manvendrask.com/2016/10/28/react-js-and-socket-io-with-yarn-and-webpack/)**. Facebook claims Yarn is faster than the NPM, which to a certain extent is true.
+**NPM &mdash; The Node Package Manager** is a program to find and install Node packages. It is really not a part of the Node, it just comes bundled with the Node binaries, as it is very popular package manager out there. But truth to be told, it is not only available package manager for the Node. Recently Facebook released its in-house made package manager called **[Yarn]({% post_url 2016-10-28-react-js-and-socket-io-with-yarn-and-webpack %})**. Facebook claims Yarn is faster than the NPM, which to a certain extent is true.
 
 Most people gets confused when talking about NPM. There are essentially two different things. First is an NPM registry which is available at [https://www.npmjs.com](https://www.npmjs.com) and second is an NPM CLI (Command Line Interface) available at [https://github.com/npm/npm](https://github.com/npm/npm), and they both work together out of the box.
 

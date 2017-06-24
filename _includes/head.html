@@ -6,6 +6,12 @@
 <meta name="format-detection" content="telephone=no">
 <meta http-equiv="x-rim-auto-match" content="none">
 
+<!-- Facebook integration -->
+<meta property="og:url"           content="{{site.url}}{{page.url}}" />
+<meta property="og:type"          content="website" />
+<meta property="og:title"         content="{{page.title}}" />
+<!-- End Facebook integration -->
+
 {% capture title %}
   {% if page.url == "/" %}
     {{ site.title }} &middot; {{ site.tagline }}

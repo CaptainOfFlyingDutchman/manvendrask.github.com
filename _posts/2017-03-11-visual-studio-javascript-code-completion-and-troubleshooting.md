@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visual Studio Code &mdash; JavaScript Code Completion and Troubleshooting
-tags: [javascript, editor]
+tags: [javascript, editor, nodejs]
 comments: true
 ---
 

@@ -48,7 +48,7 @@ You can verify the **watch** pane is showing the value of `cpu.length`. We are i
 ### 2. VisualStudio Code
 To debug the scripts in VisualStudio Code we again need to do some homework. Let's see what's that.
 
-**WARNING**: I'll not take any responsibility if you fall in love with the [VisualStudio Code]({% post_url 2017-03-11-visual-studio-javascript-code-completion-and-troubleshooting %}) and can't resist to replace it with your default editor. By the way, it is the first editor that introduced the support for Graphical Debugging for Node.js.
+**WARNING**: I'll not take any responsibility if you fall in love with the [VisualStudio Code]({% post_url 2017-03-11-visual-studio-javascript-code-completion-and-troubleshooting %}) and if you can't resist to replace it with your default editor. By the way, it is the first editor that introduced the support for Graphical Debugging for Node.js.
 {:.message}
 
 The first step is to open your code folder in the VS Code. *Manvendra, that's obvious, please don't tell us.*

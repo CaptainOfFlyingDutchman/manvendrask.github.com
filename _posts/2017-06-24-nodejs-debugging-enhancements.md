@@ -5,7 +5,7 @@ tags: [javascript, nodejs, editor]
 comments: true
 ---
 
-**DEBUGGING** has always been a needed part of the Node.js and its support was first made mainstream by the [Visual Studio Code]({% post_url 2017-03-11-visual-studio-javascript-code-completion-and-troubleshooting %}) (More on this later in the post). Starting with the v6.x.x LTS release of Node.js we can also use familiar Chrome DevTools.
+**DEBUGGING** has always been a needed part of the Node.js and its support was first made mainstream by the [VisualStudio Code]({% post_url 2017-03-11-visual-studio-javascript-code-completion-and-troubleshooting %}) (More on this later in the post). Starting with the v6.x.x LTS release of Node.js we can also use familiar Chrome DevTools.
 
 In essence, Node.js debugging has come a long way since its inception, `console.log` statements to command line client to VS Code to Chrome DevTools integration.
 

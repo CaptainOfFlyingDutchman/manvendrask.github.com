@@ -72,7 +72,7 @@ The most important one is **program** key. It points to your main file. In our c
 More information on this configuration file is available at [https://code.visualstudio.com/docs/nodejs/nodejs-debugging](https://code.visualstudio.com/docs/nodejs/nodejs-debugging).
 
 
-### 3. Node Debug Client
+### 3. Node.js Debug Client
 For those who love command prompt or terminal, there is a separate workflow for the debugging. It's similar to the **GNU C Debugger** popularly know as [GDB](https://www.gnu.org/software/gdb/). To start the script execution in debug mode you would need to execute the command `node debug index.js`. The debugger would by default listen on the port `5858`. You can type `help` for the available commands.
 
 ![Node client 1](/assets/img/nodejs-debugging-enhancements/node-client.png)
@@ -92,7 +92,7 @@ A full list of commands and their usages is available at [https://nodejs.org/dis
 ## Conclusion
 Technology has always made the human life simple, and this debugging technology is much useful for the people writing software.
 
-Debugging support has traveled a great distance. In my opinion, I would always use [VisualStudio Code]({% post_url 2017-03-11-visual-studio-javascript-code-completion-and-troubleshooting %}) as I won't to leave my development environment where I have already opened the files I'm working on. If I rely on Chrome DevTools I would have to open each file again and then set the breakpoints, which is neither productive nor logical.
+Debugging support has traveled a great distance. In my opinion, I would always use [VisualStudio Code]({% post_url 2017-03-11-visual-studio-javascript-code-completion-and-troubleshooting %}) as I won't have to leave my development environment where I have already opened the files I'm working on. If I rely on Chrome DevTools I would have to open each file again and then set the breakpoints, which is neither productive nor logical.
 
 I recommend staying far away from Node.js's debugging client. It's not super easy and intuitive to use. I highly advocate debugging your code while writing instead after deploying.
 

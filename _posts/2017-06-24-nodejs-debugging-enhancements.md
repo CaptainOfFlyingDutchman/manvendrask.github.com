@@ -48,7 +48,7 @@ Verify that **watch** pane is showing the value of `cpu.length`. We are inspecti
 ### 2. VisualStudio Code
 To debug the scripts in VisualStudio Code we again need to do some homework. Let's see what's that.
 
-**WARNING**: I'll not take any responsibility if you fall in love with the [VisualStudio Code]({% post_url 2017-03-11-visual-studio-javascript-code-completion-and-troubleshooting %}) or if you can't resist to replace it with your default editor. By the way, it's the first editor that introduced the support for Graphical Debugging for Node.js.
+**WARNING**: I'll not take any responsibility if you fall in love with the [VisualStudio Code]({% post_url 2017-03-11-visual-studio-javascript-code-completion-and-troubleshooting %}) or if you can't resist to replace your default editor with it. By the way, it's the first editor that introduced the support for Graphical Debugging for Node.js.
 {:.message}
 
 The first step is to open your code folder in the VS Code. *Manvendra, that's obvious, please don't tell us.*
@@ -94,7 +94,7 @@ Technology has always made the human life simple, and this debugging technology 
 
 Debugging support has traveled a great distance. In my opinion, I would always use [VisualStudio Code]({% post_url 2017-03-11-visual-studio-javascript-code-completion-and-troubleshooting %}) as I won't have to leave my development environment where I have already opened the files I'm working on. If I rely on Chrome DevTools I would have to open each file again and then set the breakpoints, which is neither productive nor logical.
 
-I recommend staying far away from Node.js's debugging client. It's not super easy and intuitive to use. I highly advocate debugging your code while writing instead after deploying.
+I recommend staying far away from Node.js' debugging client. It's not super easy and intuitive to use. I highly advocate debugging your code while writing instead after deploying.
 
 
 &nbsp;

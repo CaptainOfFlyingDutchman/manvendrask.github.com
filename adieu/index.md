@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: page
 title: Empty!
 ---
 
-# Empty!
-----
 Sorry, but no one is wating here for you! :-)

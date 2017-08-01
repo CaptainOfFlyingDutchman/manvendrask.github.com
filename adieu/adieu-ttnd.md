@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: page
 title: Goodbye, TO THE NEW Digital!
 ---
 
-<p style="font-weight: bold; font-size: 2.5rem; font-family: 'Caveat'">Goodbye, TO THE NEW Digital! </p>
-----
+<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
 
 <style type="text/css">
   #messageContainer {

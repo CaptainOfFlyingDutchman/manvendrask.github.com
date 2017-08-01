@@ -61,7 +61,7 @@ title: Goodbye, Sapient!
 
       var message= "^2000Dear Sapientians," +
 
-      "\n\n^1000After 1.1 years of ^500exciting and ^500memorable stint with Sapient Corporation, \n^1000today I am saying goodbye to pursue other career opportunities." +
+      "\n\n^1000After 1.1 year of ^500exciting and ^500memorable stint with Sapient Corporation, \n^1000today I am saying goodbye to pursue other career opportunities." +
 
       "\n\n^1000I have enjoyed working for this company and I appreciate having had this \nwonderful opportunity to work with ^500you all." +
 
@@ -89,7 +89,7 @@ title: Goodbye, Sapient!
       if ($("body").width() === 375) { 
         message = "^2000Dear Sapientians," +
 
-        "\n\n^1000After 3.5 years of ^500exciting and \n^500memorable stint with Sapient Corporation, \n^1000today I am saying goodbye to \npursue other career opportunities." +
+        "\n\n^1000After 1.1 year of ^500exciting and \n^500memorable stint with Sapient Corporation, \n^1000today I am saying goodbye to \npursue other career opportunities." +
 
         "\n\n^1000I have enjoyed working for this \ncompany and I appreciate having had \nthis wonderful opportunity to work \nwith ^500you all." +
 

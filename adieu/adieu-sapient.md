@@ -86,11 +86,7 @@ title: Goodbye, Sapient!
       "\n\n\n^1000Your friend," +
       "\n^1000Manvendra ^500Singh^200.^200.^200. ^1000:^300-^300)^500\n^500\n";
 
-      // if ($("body").width() === 375) { // iPhone 6
-      //   message = "message for iPhone 6";
-      // }
-
-      if ($("body").width() === 375) { // BlackBerry Z30
+      if ($("body").width() === 375) { 
         message = "^2000Dear Sapientians," +
 
         "\n\n^1000After 3.5 years of ^500exciting and \n^500memorable stint with Sapient Corporation, \n^1000today I am saying goodbye to \npursue other career opportunities." +
@@ -118,11 +114,6 @@ title: Goodbye, Sapient!
         "\n\n\n^1000Your friend," +
         "\n^1000Manvendra ^500Singh^200.^200.^200. ^1000:^300-^300)^500\n^500\n";
       }
-
-      // if ($("body").width() === 320) { // iPhone 5, Nokia 520
-      //   message = "message for iPhone 5 and Nokia 520";
-      // }
-
 
       $("#messageContainer").typed({
           strings: [message],

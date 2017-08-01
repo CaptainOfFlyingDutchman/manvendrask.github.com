@@ -126,7 +126,7 @@ title: Goodbye, Sapient!
       });
 
       var timerID = setInterval(function() {
-          var scrollEnd = $(document).height() - $("#divId").height()
+          var scrollEnd = $(document).height() - $("#divId").height();
           window.scrollBy(0, scrollEnd);
       }, 10);
 

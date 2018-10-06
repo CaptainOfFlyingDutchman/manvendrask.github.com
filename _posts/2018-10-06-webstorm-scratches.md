@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Scratch files in JetBrains WebStorm
-tags: [javascript]
+tags: [javascript, editor]
 comments: true
 ---
 
 As a JavaScript (ECMAScript) developers we usually try to run a complex piece of code in browser console before writing it directly into the project. The reason may be anything, but for me it's like to save time that goes into executing the full project cycle, just to check what I wrote is working without any problem.
 
-Although browser consoles have improved a lot, they don't provide complete flexibility in writing the code in it, e.g., *code assistance*, *syntax highlighting*, *indentations* are a few to be named, but are crucial too.
+Although browser consoles have [improved a lot](https://developers.google.com/web/updates/2018/05/devtools#eagerevaluation), they don't provide complete flexibility in writing the code in it, e.g., *code assistance*, *syntax highlighting*, *indentations* are a few to be named, but are crucial too.
 
 This is where Scratch files come into the picture. Scratch files are a feature of [JetBrains](https://www.jetbrains.com/) IDEs, and, as we used to work on [WebStorm](https://www.jetbrains.com/webstorm/), let's see how we can employ them for our own use and ease our life a little bit in testing the complex code without relying on difficult to tame Browser Consoles windows.
 

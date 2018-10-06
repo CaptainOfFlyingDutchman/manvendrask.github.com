@@ -46,6 +46,3 @@ This is just a little feature we mostly don't know about. I'll come up with one 
 &nbsp;
 
 >Thanks for stopping by. See you next time.
-
-[^1]: [https://reactjs.org/docs/forms.html](https://reactjs.org/docs/forms.html).
-[^2]: [https://github.com/ManvendraSK/react-forms](https://github.com/ManvendraSK/react-forms)

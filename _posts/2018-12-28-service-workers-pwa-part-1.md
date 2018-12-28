@@ -9,7 +9,7 @@ This article is not about the basics of the Service Workers (SW now onwards). Th
 
 A SW implementation depends on your build system.
 
-1. Either you can go with manual setup (Instantiating SW, handling it lifecycle events, handle the cache invalidations, the list goes on), and all these tasks come with their own overheads, and at the end you'll have a long SW JavaScript file that is little hard to manage in the long run like all the other JavaScript code we write. 
+1. Either you can go with manual setup (Instantiating SW, handling its lifecycle events, handle the cache invalidations, the list goes on), and all these tasks come with their own overheads, and at the end you'll have a long SW JavaScript file that is little hard to manage in the long run like all the other JavaScript code we write. 
 
 2. Or better to use some 3rd party solution. Specifically, [Workbox](https://developers.google.com/web/tools/workbox/), again from Google.
 

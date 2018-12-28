@@ -103,6 +103,7 @@ exclude:
   - package.json
   - Gemfile
   - Gemfile.lock
+  - vendor
 
 kramdown:
   footnote_backlink: '&#x21a9;&#xfe0e;'

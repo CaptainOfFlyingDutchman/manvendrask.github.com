@@ -161,7 +161,7 @@ We have used three types of strategies `networkFirst`, `staleWhileRevalidate` an
 You can read in detail (with diagrams) about these strategies [here](https://developers.google.com/web/tools/workbox/modules/workbox-strategies)[^4].
 
 
-### The usage of Workbox Webpack Plugin
+### The Usage of Workbox Webpack Plugin
 
 Our SW file **sw.js** implementation is now complete. But it'll not work on its own. Our next step is to configure the [Workbox Webpack plugin](https://developers.google.com/web/tools/workbox/modules/workbox-webpack-plugin)[^5], that'll utilize our sw.js file. 
 

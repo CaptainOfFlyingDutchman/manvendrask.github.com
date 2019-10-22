@@ -61,7 +61,7 @@ title: Goodbye, TravelTriangle!
 
       var message= "^2000Dear Triangulars," +
 
-      "\n\n^1000After 2.2 years of ^500exciting and ^500memorable stint with TravelTriangle, \n^1000today I am saying goodbye to pursue other career opportunities." +
+      "\n\n^1000After 2.2 years of ^500exciting and ^500memorable stint with TravelTriangle, \n^1000today I am saying you all goodbye to pursue other career opportunities." +
 
       "\n\n^1000I have enjoyed working for this company and I appreciate having had\nthis wonderful opportunity to work with ^500you all." +
 

@@ -86,18 +86,18 @@ title: Goodbye, TravelTriangle!
       "\n\n\n^1000Your friend," +
       "\n^1000Manvendra ^500Singh^200.^200.^200. ^1000:^300-^300)^500\n^500\n";
 
-      if ($("body").width() === 375) { 
-        message = "^2000Dear Sapientians," +
+      if ($("body").width() <= 768) { 
+        message = "^2000Dear Triangulars," +
 
-        "\n\n^1000After 1.1 year of ^500exciting and \n^500memorable stint with Sapient Corporation, \n^1000today I am saying goodbye to \npursue other career opportunities." +
+        "\n\n^1000After 2.2 years of ^500exciting and \n^500memorable stint with TravelTriangle, \n^1000today I am saying you all goodbye to \npursue other career opportunities." +
 
-        "\n\n^1000I have enjoyed working for this \ncompany and I appreciate having had \nthis wonderful opportunity to work \nwith ^500you all." +
+        "\n\n^1000I have enjoyed working for this \ncompany and I appreciate having \nhad this wonderful opportunity \nto work with ^500you all." +
 
-        "\n\n^1000During this time, ^500you all have \nprovided me support, and through your \n^1000encouragement, I have been able to \nexcel at the work offered to me." +
+        "\n\n^1000During this time, ^500you all have \nprovided me support, and through \nyour ^1000encouragement, I have been \nable to excel at the work offered \nto me." +
 
-        "\n\n^1000With many of you, I have \nshared a unique ^500camaraderie ^500which I \nhope will continue in the years to \ncome ^500even though I shall not \nbe here with the company." +
+        "\n\n^1000With many of you, I have \nshared a unique ^500camaraderie \n^500which I hope will continue in the \nyears to come ^500even though I shall \nnot be here with the company." +
 
-        "\n\n^1000I look forward to this new position \nthat brings forth new challenges and \nadds more diverse experience to my \ncareer." +
+        "\n\n^1000I look forward to this new position \nthat brings forth new challenges \nand adds more diverse experience \nto my career." +
 
         "\n\n^1000I do wish you and the company \nevery success in all future endeavors." +
 
@@ -108,7 +108,7 @@ title: Goodbye, TravelTriangle!
         "\n^500<span style='color:#55acee'>Twitter</span> : <a target='_blank' href='https://twitter.com/Manvendra_SK'>Manvendra_SK</a>"+
         "\n^500<span style='color:#4867aa'>Facebook</span> : <a target='_blank' href='https://www.facebook.com/ManvendraSK'>ManvendraSK</a>"+
         "\n^500<span style='color:#00aff0'>Skype</span> : manvendrask"+
-        "\n^500<span style='color:#005a9c'>Web</span> : <a target='_blank' href='http://www.manvendrask.com'>http://www.manvendrask.com</a>"+
+        "\n^500<span style='color:#005a9c'>Web</span> : <a target='_blank' href='http://www.manvendrask.com'>http://manvendrask.com</a>"+
 
 
         "\n\n\n^1000Your friend," +
@@ -120,15 +120,20 @@ title: Goodbye, TravelTriangle!
           contentType: 'html',
           typeSpeed: 20,
           callback: function() {
-              clearInterval(timerID);
+              clearInterval(intervalId);
           },
 
       });
 
-      var timerID = setInterval(function() {
+      var intervalId;
+
+      setTimeout(function() {
+        intervalId = setInterval(function() {
           var scrollEnd = $(document).height() - $("#divId").height();
           window.scrollBy(0, scrollEnd);
-      }, 10);
+        }, 10);
+      }, 5000);
+      
 
 
   });

@@ -3,4 +3,4 @@ layout: page
 title: Empty!
 ---
 
-Sorry, but no one is wating here for you! :-)
+Sorry, but there is no human found on the land of Sahara Desert :-)

@@ -5,7 +5,7 @@ tags: [javascript, css, reactjs]
 comments: true
 ---
 
-Hey there! It's been a long time since I wrote something 🙄. So, I thought to start writing about something I've been up to for 2 months now, *Learning CSS!!*. Yep, I suck at CSS and I tried to learn it finally. After learning some of the cool features of CSS like Flexbox and Grid, I wanted to try them on a real project. So, I came up with the idea of creating a simple Calendar in React.js that's laid down using CSS Grid as you can see above.
+Hey there! It's been a long time since I wrote something 🙄. So, I thought to start writing about something I've been up to for 2 months now, *Learning CSS!!*. Yep, I suck at CSS and I tried to learn it finally. After learning some of the cool features of CSS like Flexbox and Grid, I wanted to try them on a real project. So, I came up with the idea of creating a simple Calendar in React.js that's laid down using CSS Grid as you can see below.
 
 This Calendar facilitates moving between months using the **chevron** icons on the top right corner. You can even jump to a particular month of choice by clicking on the month name in the header that will pop open a month selector. Sweet 🥳! *Demo is at the end of this article.*
 

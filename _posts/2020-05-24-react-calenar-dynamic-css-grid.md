@@ -5,18 +5,9 @@ tags: [javascript, css, reactjs]
 comments: true
 ---
 
-<iframe
-     src="https://codesandbox.io/embed/react-calendar-tmriy?fontsize=14&hidenavigation=1&theme=dark&view=preview"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="react-calendar"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
-
-<br><br>
 Hey there! It's been a long time since I wrote something 🙄. So, I thought to start writing about something I've been up to for 2 months now, *Learning CSS!!*. Yep, I suck at CSS and I tried to learn it finally. After learning some of the cool features of CSS like Flexbox and Grid, I wanted to try them on a real project. So, I came up with the idea of creating a simple Calendar in React.js that's laid down using CSS Grid as you can see above.
 
-This Calendar facilitates moving between months using the **chevron** icons on the top right. You can even jump to a particular month of choice by clicking on the month name in the header that will pop open a month selector. Sweet 🥳!
+This Calendar facilitates moving between months using the **chevron** icons on the top right corner. You can even jump to a particular month of choice by clicking on the month name in the header that will pop open a month selector. Sweet 🥳! *Demo is at the end of this article.*
 
 ![calendar](/assets/img/react-calendar-css-grid/calendar.png)
 ![month-selector](/assets/img/react-calendar-css-grid/month-selector.png)
@@ -97,9 +88,18 @@ The result you can see in the image below:
 
 ![month-selector](/assets/img/react-calendar-css-grid/skeleton-2.png)
 
-We have finished with the core of displaying the Calendar. Now all that remains is to style this Grid and Grid-items and the Calendar header, week-row and its behaviour, which I think you can see in the [CodeSandbox](https://codesandbox.io/s/react-calendar-tmriy) I included in the very beginning of this article 😎.
+We have finished with the core of displaying the Calendar. Now all that remains is to style this Grid and Grid-items and the Calendar header, week-row and its behaviour, which I think you can see on the [CodeSandbox](https://codesandbox.io/s/react-calendar-tmriy) &mdash; Demo is below of this article 😎.
 
-Oh yes, I used CSS gradients a lot as I was reading about them a lot recently. Please don't shout at me if you don't like them 😇.
+Oh yes, I used CSS gradients a lot as I was reading about them a lot recently. Please don't shout at me if I have offended you! 😇.
+
+
+<iframe
+     src="https://codesandbox.io/embed/react-calendar-tmriy?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="react-calendar"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 &nbsp;
 

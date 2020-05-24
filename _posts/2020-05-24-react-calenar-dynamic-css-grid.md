@@ -92,7 +92,7 @@ We have finished with the core of displaying the Calendar. Now all that remains 
 
 Oh yes, I used CSS gradients a lot as I was reading about them a lot recently. Please don't shout at me if I have offended you! 😇.
 
-
+<br>
 <iframe
      src="https://codesandbox.io/embed/react-calendar-tmriy?fontsize=14&hidenavigation=1&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"

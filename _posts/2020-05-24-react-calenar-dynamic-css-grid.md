@@ -46,7 +46,7 @@ class DaysOfMonth extends Component {
 }
 ~~~
 
-By using this code you'll get nothing except a long list of `span` elements. To convert them into proper calendar like grid, we can give the `calendar` rule a `display: grid` and `grid-template-columns: repeat(7, 1fr);` properties.
+By using this code you'll get nothing except a long list of `span` elements. To convert them into proper calendar like grid, we can give the `calendar` rule `display: grid;` and `grid-template-columns: repeat(7, 1fr);` properties.
 
 ~~~css
 .calendar {
@@ -88,7 +88,7 @@ The result you can see in the image below:
 
 ![month-selector](/assets/img/react-calendar-css-grid/skeleton-2.png)
 
-We have finished with the core of displaying the Calendar. Now all that remains is to style this Grid and Grid-items and the Calendar header, week-row and its behaviour, which I think you can see on the [CodeSandbox](https://codesandbox.io/s/react-calendar-tmriy) &mdash; Demo is below of this article 😎.
+We have finished with the core of displaying the Calendar. Now all that remains is to style this Grid and Grid-items and the Calendar header, week-row and its behaviour, which I think you can see on the [CodeSandbox](https://codesandbox.io/s/react-calendar-tmriy) &mdash; *Demo is below of this article* 😎.
 
 Oh yes, I used CSS gradients a lot as I was reading about them a lot recently. Please don't shout at me if I have offended you! 😇.
 

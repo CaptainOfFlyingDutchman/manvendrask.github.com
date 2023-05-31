@@ -15,11 +15,11 @@ order: 5
 
 
 <br>
-I'm also an instructor. I'm a promoter of [Java](https://www.java.com/) ([Spring](http://spring.io), [Hibernate](http://hibernate.org), [Groovy](http://www.groovy-lang.org), [Scala](https://www.scala-lang.org/)) and JavaScript ([Node.js](http://nodejs.org), [React](https://facebook.github.io/react/), [Express.js](http://expressjs.com)) ecosystems. I really like [PostgreSQL](http://www.postgresql.org) and [MongoDB](http://mongodb.org).
+I'm an instructor and promoter of TypeScript, React and Primitive Layout techniques.
 
-It is my hobby to work on [Qt](https://www.qt.io), and [.NET](https://www.microsoft.com/net/default.aspx) during my spare time.
+It is my hobby to work on Golang and Dart, during my spare time.
 
-You can hire me for any of your training needs. Just [tweet](https://twitter.com/intent/tweet?screen_name=Manvendra_SK&text=Need%20an%20instructor.) to me.
+You can reach me out for any of your training or consultation requirements through [LinkedIn](https://www.linkedin.com/in/manvendrask)
 
 ***
 

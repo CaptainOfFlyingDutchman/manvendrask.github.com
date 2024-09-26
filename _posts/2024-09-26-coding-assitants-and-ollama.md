@@ -123,7 +123,7 @@ docker run -e WEBUI_AUTH=false -d -p 5000:8080 --add-host=host.docker.internal:h
 
 ## Ollama CLI
 
-Ollama CLI has some helpful options that can be accessed by running `ollama --help` command. Here ar two of the most used ones:
+Ollama CLI has some helpful commands that can be accessed by running `ollama --help` command. Here are two of the most used ones:
 
 1. `Ollama ls` will list all the installed models.
     > ![ollama-ls](/assets/img/coding-assistants-and-ollama/ollama-ls.png)

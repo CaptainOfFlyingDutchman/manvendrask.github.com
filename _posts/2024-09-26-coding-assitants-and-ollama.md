@@ -8,11 +8,11 @@ comments: true
 
 ## Introduction
 
-Everyone is familiar with AI (acronym for Artificial Intelligence), at least the term. It's a field that has been around for decades and it's still growing. One of the most exciting things about AI is how it can be used to unlock the Developer Productivity with the invent of coding assistants and AI-powered tools. 
+Everyone is familiar with AI (acronym for Artificial Intelligence), at least the term. It's a field that has been around for decades and it's still growing. One of the most exciting things about AI is how it can be used to unlock the Developer Productivity with the invention of coding assistants and AI-powered tools. 
 
 The first coding assistant came out of nowhere from GitHub named Copilot, though in the beginning it generated a lot of controversy about how it utilizes the open source repositories to train itself. And the second one is called ChatGPT which has been around since 2018 and it's still growing. It can answer questions, write and debug code, summarize text, translate languages, play games, etc. This list of AI engines continues to grow and evolve.
 
-But the true power of coding assistants is that they can provide the inline completion as you are typing the code. For example; let's say we have some [Rust](https://www.rust-lang.org/) code that creates a variable `finland` of type `Country` that in turns holds a vector of `City`, the Code assistant can give you the following suggestion:
+But the true power of coding assistants comes from the power of their inline completions ability as you are typing the code. For instance, let's say we have some [Rust](https://www.rust-lang.org/) code that creates a variable `finland` of type `Country` that in turns holds a vector of `City`, the Code assistant can give you the following suggestion:
 
 > ![finland-autocomplete](/assets/img/coding-assistants-and-ollama/finland-autocomplete.png)
 
@@ -31,13 +31,15 @@ Here are two more examples where AI helped to complete the code you most likely 
 
 ## What to choose? Local or Remote?
 
-We saw how much helpful a code assistant can be, but the real question is should you use service like [Supermaven](https://supermaven.com/), [Codium](https://www.codium.ai/), [Copilot](https://github.com/features/copilot) or [Cursor](https://www.cursor.com/) and others ? Or just run the open source LLMs on your local computer?
+We saw how much helpful a code assistant can be; however, the real question is should you use service like [Supermaven](https://supermaven.com/), [Codium](https://www.codium.ai/), [Copilot](https://github.com/features/copilot) or [Cursor](https://www.cursor.com/) and others ? Or just run the open source LLMs on your local computer?
 
 > 💡 BTW LLM stands for Large Language Model while LLaMA stands for Large Language Model Meta AI.
 
 Running a local LLM can help if you are super conscious that you don't want to share your information in real time to a third party company, though some claim that they delete it after few days. But, it incurs resources usage cost as LLMs are RAM and GPU/CPU incentive and can quickly dwindle down your computer's performance in milliseconds if you are running a potato 🥔 computer.
 
-On the other hand, using a Remote service frees you from such restrictions but may put a hole in your wallet/credit card. 
+On the other hand, using a Remote service frees you from such restrictions but may drill a hole in your wallet/credit card.
+
+> 💡 In my opinion, paying for a service of ₹8500 ($100) per year makes more sense as compared to buying an expensive Desktop Performance GPU (NVIDIA RTX 4090) which usually costs around ₹2,50,000 ($3,000) upfront.
 
 Here I'll show you how to use Open Source LLMs running on your own computer. 
 

@@ -103,30 +103,17 @@ Here I'll show you how to use Open Source LLMs running on your own computer.
             "title": "Codeqwen",
             "provider": "ollama",
             "model": "codeqwen:latest"
-        }
+        },
+        "tabAutocompleteOptions": {
+            "maxPromptTokens": 700,
+            "prefixPercentage": 0.5,
+            "multilineCompletions": "always",
+            "debounceDelay": 100
+        },
     }
     ~~~
 
-If you like to have multiline completions with less delay then you can add this `tabAutocompleteOptions` config as well. I took this straight from [Continue.dev](https://docs.continue.dev/customize/deep-dives/autocomplete) website.
-
-~~~json
-{
-    "models": [
-        // models here
-    ],
-    "tabAutocompleteModel": {
-        // model options
-    },
-    "tabAutocompleteOptions": {
-        "maxPromptTokens": 700,
-        "prefixPercentage": 0.5,
-        "multilineCompletions": "always",
-        "debounceDelay": 100
-    },
-}
-~~~
-
-You may have noticed that I have used `maxPromptTokens: 700` as I find it the sweet spot for my MacBook Pro M1 Pro Chip with 16GB RAM. Anything above it will considerably slow down the completions and your computer as well.
+You may have noticed that I have used `maxPromptTokens: 700` as I find it the sweet spot for my MacBook Pro M1 Pro Chip with 16GB RAM. Anything above it will considerably slow down the completions and not to mention your computer as well.
 
 That concludes the Ollama and Continue setup. Now let's look at how you can get the `ChatGPT` like browser application running on your computer so that you don't need to deal with the command line.
 

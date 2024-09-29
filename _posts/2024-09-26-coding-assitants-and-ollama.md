@@ -115,7 +115,7 @@ Here I'll show you how to use Open Source LLMs running on your own computer.
 
 You may have noticed that I have used `maxPromptTokens: 700` as I find it the sweet spot for my MacBook Pro M1 Pro Chip with 16GB RAM. Anything above it will considerably slow down the completions and not to mention your computer as well.
 
-That concludes the Ollama and Continue setup. Now let's look at how you can get the `ChatGPT` like browser application running on your computer so that you don't need to deal with the command line.
+This concludes the Ollama and Continue setup. Now let's look at how you can get the `ChatGPT` like browser application running on your computer so that you don't need to deal with the command line.
 
 
 ## Open WebUI

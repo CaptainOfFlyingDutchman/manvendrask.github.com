@@ -86,7 +86,7 @@ Mobile typing is a completely different experience. You do not use all ten finge
 
 After ***three*** month, I am comfortably typing at 70+ WPM - and closing in on my old 100+ WPM QWERTY speed. More importantly, typing feels better. My hands are relaxed, my rhythm is smoother, and long sessions are less tiring. The wrist pain that used to be a constant background annoyance has nearly disappeared.
 
-Learning Colemak has been one of the most rewarding productivity experiments I have done. It reminds me how small, thoughtful changes in tools can create lasting improvements in comfort and performance.
+*Learning Colemak has been one of the most rewarding productivity experiments I have done. It reminds me how small, thoughtful changes in tools can create lasting improvements in comfort and performance.*
 
 If you are curious, give *Colemak* a try for a few weeks. It is a small investment for a big ergonomic payoff - and you might just find typing enjoyable again.
 

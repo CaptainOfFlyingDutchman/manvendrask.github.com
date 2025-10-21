@@ -19,7 +19,7 @@ That decision made perfect sense - for the 19th century.
 
 But when computers arrived, the layout stayed. By then, generations had learned QWERTY, and it became the universal standard. No one wanted to retrain typists or reprint manuals, so QWERTY persisted by ***momentum, not merit***.
 
-# Why QWERTY Is Not Ideal for Modern Typing
+# Why QWERTY is Not Ideal for Modern Typing
 
 On a computer keyboard, the constraints of typewriter arms do not exist. Yet QWERTY continues to:
 
@@ -74,17 +74,17 @@ Keybr generates realistic letter combinations and adapts to your weak spots. It 
 
 Practicing 20-30 minutes a day between these two tools was all it took to go from zero to comfortable. Together, they made learning Colemak almost addictive.
 
-# Switching Layouts On macOS
+# Switching Layouts on macOS
 
-I use both *QWERTY* and *Colemak* depending on the task. On macOS, switching is seamless - I have mapped `Ctrl + Option + Space` as a shortcut to toggle between layouts. This lets me code or write in Colemak but revert to QWERTY instantly when I need to type in certain character, e.g. the `₹` symbol, which is not available in *Colemak*.
+I use both *QWERTY* and *Colemak* depending on the task. On macOS, switching is seamless - I have mapped `Ctrl + Option + Space` as a shortcut to toggle between layouts. This lets me code or write in Colemak but revert to QWERTY instantly when I need to type in certain character, e.g. the `₹` symbol, which is not available on *Colemak* layout.
 
-# Why I Do Not Use Colemak On My Phone
+# Why I Do Not Use Colemak on My Phone
 
 Mobile typing is a completely different experience. You do not use all ten fingers; you rely on autocorrect, prediction, or swipe input. Efficiency gains from alternative layouts do not translate well to touchscreen keyboards, so I have kept my phone on the standard layout.
 
 # Three Month In: Results and Reflections
 
-After ***three*** month, I am comfortably typing at 70+ WPM - and closing in on my old 100+ WPM QWERTY speed. More importantly, typing feels better. My hands are relaxed, my rhythm is smoother, and long sessions are less tiring. The wrist pain that used to be a constant background annoyance has nearly disappeared.
+After ***three*** months, I am comfortably typing at 70+ WPM - and closing in on my old 100+ WPM QWERTY speed. More importantly, typing feels better. My hands are relaxed, my rhythm is smoother, and long sessions are less tiring. The wrist pain that used to be a constant background annoyance has nearly disappeared.
 
 *Learning Colemak has been one of the most rewarding productivity experiments I have done. It reminds me how small, thoughtful changes in tools can create lasting improvements in comfort and performance.*
 

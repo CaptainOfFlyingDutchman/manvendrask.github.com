@@ -82,7 +82,7 @@ I use both *QWERTY* and *Colemak* depending on the task. On macOS, switching is 
 
 Mobile typing is a completely different experience. You do not use all ten fingers; you rely on autocorrect, prediction, or swipe input. Efficiency gains from alternative layouts do not translate well to touchscreen keyboards, so I have kept my phone on the standard layout.
 
-# Three Month In: Results and Reflections
+# Three Months in: Results and Reflections
 
 After ***three*** months, I am comfortably typing at 70+ WPM - and closing in on my old 100+ WPM QWERTY speed. More importantly, typing feels better. My hands are relaxed, my rhythm is smoother, and long sessions are less tiring. The wrist pain that used to be a constant background annoyance has nearly disappeared.
 
